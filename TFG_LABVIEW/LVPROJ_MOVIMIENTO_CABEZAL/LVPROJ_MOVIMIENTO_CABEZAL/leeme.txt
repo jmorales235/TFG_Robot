@@ -1,0 +1,1 @@
+en movimiento cabezal absoluto proj, cambiar maquina de estados con solo una gestion evento

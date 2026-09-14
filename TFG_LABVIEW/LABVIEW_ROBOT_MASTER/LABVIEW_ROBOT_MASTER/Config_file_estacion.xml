@@ -1,0 +1,72 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>19.0</Version>
+<Cluster>
+<Name>Coordenadas_estacion</Name>
+<NumElts>4</NumElts>
+<Cluster>
+<Name>Coord.Bandeja entrada</Name>
+<NumElts>3</NumElts>
+<U32>
+<Name>Coord. X0 entrada</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>Coord. Y0 entrada </Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>Altura Z entrada</Name>
+<Val>0</Val>
+</U32>
+</Cluster>
+<Cluster>
+<Name>Coord.Bandeja OK</Name>
+<NumElts>3</NumElts>
+<U32>
+<Name>Coord. X0 OK</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>Coord. Y0 OK</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>Altura Z OK</Name>
+<Val>0</Val>
+</U32>
+</Cluster>
+<Cluster>
+<Name>Coord.Bandeja entrada FAIL</Name>
+<NumElts>3</NumElts>
+<U32>
+<Name>Coord. X0 FAIL</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>Coord. Y0 FAIL</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>Altura Z FAIL</Name>
+<Val>0</Val>
+</U32>
+</Cluster>
+<Cluster>
+<Name>Coord. Socket</Name>
+<NumElts>3</NumElts>
+<U32>
+<Name>Coord. X socket</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>Coord. Y socket</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>Altura Z socket</Name>
+<Val>0</Val>
+</U32>
+</Cluster>
+</Cluster>
+</LVData>

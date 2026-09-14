@@ -1,0 +1,48 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>19.0</Version>
+<Cluster>
+<Name></Name>
+<NumElts>10</NumElts>
+<U32>
+<Name>Nº de columnas </Name>
+<Val>10</Val>
+</U32>
+<U32>
+<Name>Nº de filas </Name>
+<Val>26</Val>
+</U32>
+<U32>
+<Name>largo</Name>
+<Val>315</Val>
+</U32>
+<U32>
+<Name>ancho</Name>
+<Val>136</Val>
+</U32>
+<String>
+<Name>nombre</Name>
+<Val>JEDEC_QFN7X7_260</Val>
+</String>
+<DBL>
+<Name>Paso X</Name>
+<Val>12.80000000000000</Val>
+</DBL>
+<DBL>
+<Name>Paso Y</Name>
+<Val>11.80000000000000</Val>
+</DBL>
+<DBL>
+<Name>DISTANCIA SUELO A CHIP  </Name>
+<Val>5.87000000000000</Val>
+</DBL>
+<U16>
+<Name>Nº de celdas totales</Name>
+<Val>260</Val>
+</U16>
+<DBL>
+<Name>Distancia chips bandejas contiguas</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</LVData>

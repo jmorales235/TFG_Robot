@@ -1,0 +1,1391 @@
+<Cluster>
+<Name></Name>
+<NumElts>4</NumElts>
+<Cluster>
+<Name>Config HW</Name>
+<NumElts>7</NumElts>
+<Refnum>
+<Name>VISA Rigol DP832</Name>
+<RefKind>VISA</RefKind>
+<Val>FA_Rigol_DP832</Val>
+</Refnum>
+<Array>
+<Name>Config Rigol DP832</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name></Name>
+<NumElts>4</NumElts>
+<I32>
+<Name>Channel</Name>
+<Val>0</Val>
+</I32>
+<DBL>
+<Name>V Limit</Name>
+<Val>5.50000000000000</Val>
+</DBL>
+<DBL>
+<Name>I Limit</Name>
+<Val>0.60000000000000</Val>
+</DBL>
+<DBL>
+<Name>V Out</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>4</NumElts>
+<I32>
+<Name>Channel</Name>
+<Val>1</Val>
+</I32>
+<DBL>
+<Name>V Limit</Name>
+<Val>5.50000000000000</Val>
+</DBL>
+<DBL>
+<Name>I Limit</Name>
+<Val>0.90000000000000</Val>
+</DBL>
+<DBL>
+<Name>V Out</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>4</NumElts>
+<I32>
+<Name>Channel</Name>
+<Val>2</Val>
+</I32>
+<DBL>
+<Name>V Limit</Name>
+<Val>3.60000000000000</Val>
+</DBL>
+<DBL>
+<Name>I Limit</Name>
+<Val>0.30000000000000</Val>
+</DBL>
+<DBL>
+<Name>V Out</Name>
+<Val>3.30000000000000</Val>
+</DBL>
+</Cluster>
+</Array>
+<String>
+<Name>CTA Test#</Name>
+<Val>CTAV2011A</Val>
+</String>
+<U32>
+<Name>FT_Handle</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>Espera acceso FT</Name>
+<Val>0</Val>
+</U32>
+<Refnum>
+<Name>VISA Tek MDO3104</Name>
+<RefKind>VISA</RefKind>
+<Val>Osciloscopio_Tek_MDO3104</Val>
+</Refnum>
+<Refnum>
+<Name>VISA Key 81160A</Name>
+<RefKind>VISA</RefKind>
+<Val>Generator_Key_81160A</Val>
+</Refnum>
+</Cluster>
+<Array>
+<Name>Config Test</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>21</NumElts>
+<DBL>
+<Name>Vasic</Name>
+<Val>3.30000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Global Reset</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Test Register?</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Test ADC?</Name>
+<Val>1</Val>
+</Boolean>
+<Cluster>
+<Name>Test ADC</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>Repeats ADC</Name>
+<Val>100</Val>
+</I32>
+<DBL>
+<Name>Max Desviation</Name>
+<Val>0.10000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Limits ADC</Name>
+<NumElts>2</NumElts>
+<Array>
+<Name>Low</Name>
+<Dimsize>11</Dimsize>
+<DBL>
+<Name></Name>
+<Val>1.80000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>1.30000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.75000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.90000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>1.50000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>1.10000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>1.10000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>1.30000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.60000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>1.90000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>1.82000000000000</Val>
+</DBL>
+</Array>
+<Array>
+<Name>High</Name>
+<Dimsize>11</Dimsize>
+<DBL>
+<Name></Name>
+<Val>2.20000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>1.50000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.84000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>1.30000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>1.70000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>1.50000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>1.50000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>1.50000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>1.85000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>2.16000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>1.87000000000000</Val>
+</DBL>
+</Array>
+</Cluster>
+<Boolean>
+<Name>Test Max PN Min NP?</Name>
+<Val>1</Val>
+</Boolean>
+<Cluster>
+<Name>Limits Max PN Min NP</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Max P Upper</Name>
+<Val>2.15000000000000</Val>
+</DBL>
+<DBL>
+<Name>Min P Upper</Name>
+<Val>1.47000000000000</Val>
+</DBL>
+<DBL>
+<Name>Max N Upper</Name>
+<Val>1.45000000000000</Val>
+</DBL>
+<DBL>
+<Name>Min N Upper</Name>
+<Val>0.82000000000000</Val>
+</DBL>
+<DBL>
+<Name>Max P Lower</Name>
+<Val>1.88000000000000</Val>
+</DBL>
+<DBL>
+<Name>Min P Lower </Name>
+<Val>1.35000000000000</Val>
+</DBL>
+<DBL>
+<Name>Max N Lower</Name>
+<Val>1.22000000000000</Val>
+</DBL>
+<DBL>
+<Name>Min N Lower</Name>
+<Val>0.75000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Test Rate Scan?</Name>
+<Val>1</Val>
+</Boolean>
+<Array>
+<Name>Vin Rate Scan</Name>
+<Dimsize>11</Dimsize>
+<I32>
+<Name></Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>1</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>2</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>3</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>4</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>5</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>6</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>7</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>8</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>9</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>10</Val>
+</I32>
+</Array>
+<Cluster>
+<Name>Limits Rate Scan</Name>
+<NumElts>2</NumElts>
+<Array>
+<Name>High</Name>
+<Dimsize>11</Dimsize>
+<DBL>
+<Name></Name>
+<Val>4.93000000000000E-2</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>9.73000000000000E-2</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.19390000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.28770000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.38180000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.47280000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.56020000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.64940000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.72670000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.79870000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.85700000000000</Val>
+</DBL>
+</Array>
+<Array>
+<Name>Low</Name>
+<Dimsize>11</Dimsize>
+<DBL>
+<Name></Name>
+<Val>3.64000000000000E-2</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>7.65000000000000E-2</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.15230000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.23070000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.30620000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.37910000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.44920000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.52070000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.58260000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.64040000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.68710000000000</Val>
+</DBL>
+</Array>
+</Cluster>
+<Boolean>
+<Name>Test Rate Scan Adders?</Name>
+<Val>1</Val>
+</Boolean>
+<Array>
+<Name>Vin Rate Adders</Name>
+<Dimsize>3</Dimsize>
+<I32>
+<Name></Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>1</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>2</Val>
+</I32>
+</Array>
+<Cluster>
+<Name>Limits Rate Scan adders</Name>
+<NumElts>2</NumElts>
+<Array>
+<Name>High</Name>
+<Dimsize>9</Dimsize>
+<DBL>
+<Name></Name>
+<Val>9.52000000000000E-2</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.13880000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.17520000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.19190000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.28400000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.36720000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.37890000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.55670000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.71120000000000</Val>
+</DBL>
+</Array>
+<Array>
+<Name>Low</Name>
+<Dimsize>9</Dimsize>
+<DBL>
+<Name></Name>
+<Val>7.79000000000000E-2</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.11360000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.14330000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.15700000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.23240000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.30040000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.31000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.45550000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.58190000000000</Val>
+</DBL>
+</Array>
+</Cluster>
+<Boolean>
+<Name>Test offset analog?</Name>
+<Val>1</Val>
+</Boolean>
+<Cluster>
+<Name>Lim Offset Analog</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Max Analog</Name>
+<Val>5.00000000000000E-2</Val>
+</DBL>
+<DBL>
+<Name>Min Analog</Name>
+<Val>-5.00000000000000E-2</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Test offset digital?</Name>
+<Val>1</Val>
+</Boolean>
+<Cluster>
+<Name>Lim offset Dig</Name>
+<NumElts>1</NumElts>
+<DBL>
+<Name>Max Dig</Name>
+<Val>5.00000000000000E-2</Val>
+</DBL>
+</Cluster>
+<DBL>
+<Name>Vasic real f.a.</Name>
+<Val>3.33000000000000</Val>
+</DBL>
+<Boolean>
+<Name>IBIAS</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>VALUE IBIAS</Name>
+<Val>13</Val>
+</U8>
+</Cluster>
+</Array>
+<Cluster>
+<Name>Config VGA</Name>
+<NumElts>5</NumElts>
+<Array>
+<Name>Theoretical Voltage</Name>
+<Dimsize>11</Dimsize>
+<DBL>
+<Name></Name>
+<Val>5.00000000000000E-2</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.10000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.20000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.30000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.40000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.50000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.60000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.70000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.80000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.90000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>1.00000000000000</Val>
+</DBL>
+</Array>
+<Array>
+<Name>Real Voltage</Name>
+<Dimsize>11</Dimsize>
+<DBL>
+<Name></Name>
+<Val>5.42000000000000E-2</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>9.71000000000000E-2</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.19740000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.30310000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.40940000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.51040000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.61040000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.70370000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.81280000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.90960000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>1.00960000000000</Val>
+</DBL>
+</Array>
+<U16>
+<Name>Pulse Width</Name>
+<Val>57344</Val>
+</U16>
+<DBL>
+<Name>Frecuency Pulse</Name>
+<Val>1000000.00000000000000</Val>
+</DBL>
+<Array>
+<Name>VGA Gain</Name>
+<Dimsize>11</Dimsize>
+<U8>
+<Name></Name>
+<Val>5</Val>
+</U8>
+<U8>
+<Name></Name>
+<Val>9</Val>
+</U8>
+<U8>
+<Name></Name>
+<Val>18</Val>
+</U8>
+<U8>
+<Name></Name>
+<Val>28</Val>
+</U8>
+<U8>
+<Name></Name>
+<Val>40</Val>
+</U8>
+<U8>
+<Name></Name>
+<Val>50</Val>
+</U8>
+<U8>
+<Name></Name>
+<Val>62</Val>
+</U8>
+<U8>
+<Name></Name>
+<Val>74</Val>
+</U8>
+<U8>
+<Name></Name>
+<Val>86</Val>
+</U8>
+<U8>
+<Name></Name>
+<Val>102</Val>
+</U8>
+<U8>
+<Name></Name>
+<Val>115</Val>
+</U8>
+</Array>
+</Cluster>
+<Array>
+<Name>CONFIG GEN</Name>
+<Dimsize>11</Dimsize>
+<Cluster>
+<Name>Config Pulse</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>Channel</Name>
+<Val>1</Val>
+</U16>
+<DBL>
+<Name>Frequency</Name>
+<Val>1000000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Width Time</Name>
+<Val>3.30000000000000E-9</Val>
+</DBL>
+<DBL>
+<Name>Amplitude</Name>
+<Val>5.50000000000000E-2</Val>
+</DBL>
+<DBL>
+<Name>DC Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Load</Name>
+<Val>50.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Leading Edge Time</Name>
+<Val>1.00000000000000E-9</Val>
+</DBL>
+<DBL>
+<Name>Trailing Edge Time</Name>
+<Val>1.00000000000000E-9</Val>
+</DBL>
+<DBL>
+<Name>Delay</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Out</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>/Out</Name>
+<Val>1</Val>
+</Boolean>
+<U16>
+<Name>Trigger Level Sync</Name>
+<Val>1</Val>
+</U16>
+<U16>
+<Name>Trigger Sync Out</Name>
+<Val>1</Val>
+</U16>
+<DBL>
+<Name>Vasic Theorical</Name>
+<Val>5.00000000000000E-2</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Config Pulse</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>Channel</Name>
+<Val>1</Val>
+</U16>
+<DBL>
+<Name>Frequency</Name>
+<Val>1000000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Width Time</Name>
+<Val>3.30000000000000E-9</Val>
+</DBL>
+<DBL>
+<Name>Amplitude</Name>
+<Val>0.11000000000000</Val>
+</DBL>
+<DBL>
+<Name>DC Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Load</Name>
+<Val>50.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Leading Edge Time</Name>
+<Val>1.00000000000000E-9</Val>
+</DBL>
+<DBL>
+<Name>Trailing Edge Time</Name>
+<Val>1.00000000000000E-9</Val>
+</DBL>
+<DBL>
+<Name>Delay</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Out</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>/Out</Name>
+<Val>1</Val>
+</Boolean>
+<U16>
+<Name>Trigger Level Sync</Name>
+<Val>1</Val>
+</U16>
+<U16>
+<Name>Trigger Sync Out</Name>
+<Val>1</Val>
+</U16>
+<DBL>
+<Name>Vasic Theorical</Name>
+<Val>0.10000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Config Pulse</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>Channel</Name>
+<Val>1</Val>
+</U16>
+<DBL>
+<Name>Frequency</Name>
+<Val>1000000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Width Time</Name>
+<Val>3.30000000000000E-9</Val>
+</DBL>
+<DBL>
+<Name>Amplitude</Name>
+<Val>0.22000000000000</Val>
+</DBL>
+<DBL>
+<Name>DC Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Load</Name>
+<Val>50.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Leading Edge Time</Name>
+<Val>1.00000000000000E-9</Val>
+</DBL>
+<DBL>
+<Name>Trailing Edge Time</Name>
+<Val>1.00000000000000E-9</Val>
+</DBL>
+<DBL>
+<Name>Delay</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Out</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>/Out</Name>
+<Val>1</Val>
+</Boolean>
+<U16>
+<Name>Trigger Level Sync</Name>
+<Val>1</Val>
+</U16>
+<U16>
+<Name>Trigger Sync Out</Name>
+<Val>1</Val>
+</U16>
+<DBL>
+<Name>Vasic Theorical</Name>
+<Val>0.20000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Config Pulse</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>Channel</Name>
+<Val>1</Val>
+</U16>
+<DBL>
+<Name>Frequency</Name>
+<Val>1000000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Width Time</Name>
+<Val>3.30000000000000E-9</Val>
+</DBL>
+<DBL>
+<Name>Amplitude</Name>
+<Val>0.33000000000000</Val>
+</DBL>
+<DBL>
+<Name>DC Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Load</Name>
+<Val>50.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Leading Edge Time</Name>
+<Val>1.00000000000000E-9</Val>
+</DBL>
+<DBL>
+<Name>Trailing Edge Time</Name>
+<Val>1.00000000000000E-9</Val>
+</DBL>
+<DBL>
+<Name>Delay</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Out</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>/Out</Name>
+<Val>1</Val>
+</Boolean>
+<U16>
+<Name>Trigger Level Sync</Name>
+<Val>1</Val>
+</U16>
+<U16>
+<Name>Trigger Sync Out</Name>
+<Val>1</Val>
+</U16>
+<DBL>
+<Name>Vasic Theorical</Name>
+<Val>0.30000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Config Pulse</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>Channel</Name>
+<Val>1</Val>
+</U16>
+<DBL>
+<Name>Frequency</Name>
+<Val>1000000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Width Time</Name>
+<Val>3.30000000000000E-9</Val>
+</DBL>
+<DBL>
+<Name>Amplitude</Name>
+<Val>0.44000000000000</Val>
+</DBL>
+<DBL>
+<Name>DC Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Load</Name>
+<Val>50.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Leading Edge Time</Name>
+<Val>1.00000000000000E-9</Val>
+</DBL>
+<DBL>
+<Name>Trailing Edge Time</Name>
+<Val>1.00000000000000E-9</Val>
+</DBL>
+<DBL>
+<Name>Delay</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Out</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>/Out</Name>
+<Val>1</Val>
+</Boolean>
+<U16>
+<Name>Trigger Level Sync</Name>
+<Val>1</Val>
+</U16>
+<U16>
+<Name>Trigger Sync Out</Name>
+<Val>1</Val>
+</U16>
+<DBL>
+<Name>Vasic Theorical</Name>
+<Val>0.40000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Config Pulse</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>Channel</Name>
+<Val>1</Val>
+</U16>
+<DBL>
+<Name>Frequency</Name>
+<Val>1000000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Width Time</Name>
+<Val>3.30000000000000E-9</Val>
+</DBL>
+<DBL>
+<Name>Amplitude</Name>
+<Val>0.54900000000000</Val>
+</DBL>
+<DBL>
+<Name>DC Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Load</Name>
+<Val>50.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Leading Edge Time</Name>
+<Val>1.00000000000000E-9</Val>
+</DBL>
+<DBL>
+<Name>Trailing Edge Time</Name>
+<Val>1.00000000000000E-9</Val>
+</DBL>
+<DBL>
+<Name>Delay</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Out</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>/Out</Name>
+<Val>1</Val>
+</Boolean>
+<U16>
+<Name>Trigger Level Sync</Name>
+<Val>1</Val>
+</U16>
+<U16>
+<Name>Trigger Sync Out</Name>
+<Val>1</Val>
+</U16>
+<DBL>
+<Name>Vasic Theorical</Name>
+<Val>0.51000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Config Pulse</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>Channel</Name>
+<Val>1</Val>
+</U16>
+<DBL>
+<Name>Frequency</Name>
+<Val>1000000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Width Time</Name>
+<Val>3.30000000000000E-9</Val>
+</DBL>
+<DBL>
+<Name>Amplitude</Name>
+<Val>0.66000000000000</Val>
+</DBL>
+<DBL>
+<Name>DC Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Load</Name>
+<Val>50.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Leading Edge Time</Name>
+<Val>1.00000000000000E-9</Val>
+</DBL>
+<DBL>
+<Name>Trailing Edge Time</Name>
+<Val>1.00000000000000E-9</Val>
+</DBL>
+<DBL>
+<Name>Delay</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Out</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>/Out</Name>
+<Val>1</Val>
+</Boolean>
+<U16>
+<Name>Trigger Level Sync</Name>
+<Val>1</Val>
+</U16>
+<U16>
+<Name>Trigger Sync Out</Name>
+<Val>1</Val>
+</U16>
+<DBL>
+<Name>Vasic Theorical</Name>
+<Val>0.60000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Config Pulse</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>Channel</Name>
+<Val>1</Val>
+</U16>
+<DBL>
+<Name>Frequency</Name>
+<Val>1000000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Width Time</Name>
+<Val>3.30000000000000E-9</Val>
+</DBL>
+<DBL>
+<Name>Amplitude</Name>
+<Val>0.77200000000000</Val>
+</DBL>
+<DBL>
+<Name>DC Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Load</Name>
+<Val>50.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Leading Edge Time</Name>
+<Val>1.00000000000000E-9</Val>
+</DBL>
+<DBL>
+<Name>Trailing Edge Time</Name>
+<Val>1.00000000000000E-9</Val>
+</DBL>
+<DBL>
+<Name>Delay</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Out</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>/Out</Name>
+<Val>1</Val>
+</Boolean>
+<U16>
+<Name>Trigger Level Sync</Name>
+<Val>1</Val>
+</U16>
+<U16>
+<Name>Trigger Sync Out</Name>
+<Val>1</Val>
+</U16>
+<DBL>
+<Name>Vasic Theorical</Name>
+<Val>0.70000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Config Pulse</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>Channel</Name>
+<Val>1</Val>
+</U16>
+<DBL>
+<Name>Frequency</Name>
+<Val>1000000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Width Time</Name>
+<Val>3.30000000000000E-9</Val>
+</DBL>
+<DBL>
+<Name>Amplitude</Name>
+<Val>0.87800000000000</Val>
+</DBL>
+<DBL>
+<Name>DC Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Load</Name>
+<Val>50.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Leading Edge Time</Name>
+<Val>1.00000000000000E-9</Val>
+</DBL>
+<DBL>
+<Name>Trailing Edge Time</Name>
+<Val>1.00000000000000E-9</Val>
+</DBL>
+<DBL>
+<Name>Delay</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Out</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>/Out</Name>
+<Val>1</Val>
+</Boolean>
+<U16>
+<Name>Trigger Level Sync</Name>
+<Val>1</Val>
+</U16>
+<U16>
+<Name>Trigger Sync Out</Name>
+<Val>1</Val>
+</U16>
+<DBL>
+<Name>Vasic Theorical</Name>
+<Val>0.80000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Config Pulse</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>Channel</Name>
+<Val>1</Val>
+</U16>
+<DBL>
+<Name>Frequency</Name>
+<Val>1000000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Width Time</Name>
+<Val>3.30000000000000E-9</Val>
+</DBL>
+<DBL>
+<Name>Amplitude</Name>
+<Val>0.98900000000000</Val>
+</DBL>
+<DBL>
+<Name>DC Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Load</Name>
+<Val>50.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Leading Edge Time</Name>
+<Val>1.00000000000000E-9</Val>
+</DBL>
+<DBL>
+<Name>Trailing Edge Time</Name>
+<Val>1.00000000000000E-9</Val>
+</DBL>
+<DBL>
+<Name>Delay</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Out</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>/Out</Name>
+<Val>1</Val>
+</Boolean>
+<U16>
+<Name>Trigger Level Sync</Name>
+<Val>1</Val>
+</U16>
+<U16>
+<Name>Trigger Sync Out</Name>
+<Val>1</Val>
+</U16>
+<DBL>
+<Name>Vasic Theorical</Name>
+<Val>0.90000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Config Pulse</Name>
+<NumElts>14</NumElts>
+<U16>
+<Name>Channel</Name>
+<Val>1</Val>
+</U16>
+<DBL>
+<Name>Frequency</Name>
+<Val>1000000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Width Time</Name>
+<Val>3.30000000000000E-9</Val>
+</DBL>
+<DBL>
+<Name>Amplitude</Name>
+<Val>1.10000000000000</Val>
+</DBL>
+<DBL>
+<Name>DC Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Load</Name>
+<Val>50.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Leading Edge Time</Name>
+<Val>1.00000000000000E-9</Val>
+</DBL>
+<DBL>
+<Name>Trailing Edge Time</Name>
+<Val>1.00000000000000E-9</Val>
+</DBL>
+<DBL>
+<Name>Delay</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Out</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>/Out</Name>
+<Val>1</Val>
+</Boolean>
+<U16>
+<Name>Trigger Level Sync</Name>
+<Val>1</Val>
+</U16>
+<U16>
+<Name>Trigger Sync Out</Name>
+<Val>1</Val>
+</U16>
+<DBL>
+<Name>Vasic Theorical</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+</Cluster>
+</Array>
+</Cluster>

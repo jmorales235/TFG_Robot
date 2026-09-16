@@ -39,7 +39,7 @@ Posicion coordenadaFisica(Bandeja *b, Celda c) //CALCULA POSICION EN PASOS DE UN
 // SIGUIENTE CELDA
 //////////////////////////////////////////////////////////////
 
-/*Calcula la siguiente celda de una bandeja en formato coordenadas (x,y),actualiza la variable Celda, tanto de la bandeja de origen como la de desti
+/*Calcula la siguiente celda de una bandeja en formato coordenadas (x,y),actualiza la variable Celda, de la bandeja argumento
 Recibe puntero a una Bandeja (struct) para optimizar memoria y otro puntero a una celda para cambiar el valor de la variable Celda
 Ésta funcion se ejecuta cuando terminamos un movimiento, para calcular tanto la coordenada de origen siguiente como la de destino
 Al principio de la ejecución valdrá la coordenada de comienzo que le enviamos desde labview, después la función la va incrementando.
@@ -233,17 +233,17 @@ void dejarEnBandeja(Bandeja *b,Celda c) //MISMA SECUENCIA EN Z QUE COGER DE BAND
 void cogerDelSocket(Posicion socket) //SECUENCIA PARA COGER UN CHIP DEL SOCKET, RECIBE LA POSICION DEL SOCKET (X,Y,Z)
 {
     
-    moverXY(socket); //aqui el desplazamiento daria cero y no se mueve
+    moverXY(socket); //aqui el calculo desplazamiento daria cero y no se mueve.
 
     accionamientoSocket();
 
-    moverZ(socket.z);
+    moverZ(socket.z); //baja
 
-    activarBomba();
+    activarBomba(); //succion
 
     delay(100);
 
-    moverZ(0);
+    moverZ(0); //sube
 	
 	relajacionSocket();
 	
@@ -309,7 +309,7 @@ void recibirDatosEstacion(Bandeja *b1 , Bandeja *b2 , Bandeja *b3 , Posicion *so
     socket->y = datos[22];
     socket->z = datos[23];
     
-    // Echo exactamente igual que se recibió
+    // Echo exactamente igual que se recibieron
     Serial.print(b1->origen.x);
     Serial.print('\n');        
     Serial.print(b1->origen.y);
@@ -495,6 +495,7 @@ void recibirDatosEstacion_TRASPASO(Bandeja *b1 , Bandeja *b2){ //recibo punteros
 
     
     // Echo exactamente igual que se recibió
+	
     Serial.print(b1->origen.x);        Serial.print('\n');
     Serial.print(b1->origen.y);        Serial.print('\n');
     Serial.print(b1->origen.z);        Serial.print('\n');

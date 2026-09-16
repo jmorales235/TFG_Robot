@@ -4,6 +4,10 @@
 #include <Arduino.h>
 #include <config_pines_arduino.h>
 
+/////////////////////////////////////////////////////////////////////FUNCIONES DE ALTO NIVEL QUE EJECTUAN LAS TAREAS DEL ROBOT CON MAQUINAS DE ESTADO//////////////////////////////////////////
+
+
+
 /////////////////////////////////////////////////////////////////////////////////////MOVER CABEZAL///////////////////////////////////////////////////////////////////
 void moverCabezal(){
 
@@ -16,7 +20,7 @@ struct tramaMovimiento{
 tramaMovimiento trama;
 
 
-enum state { START, ESPERA_COMANDO_HOME ,HACER_HOME, ESPERA_POSICION_INICIO, MOVER_POSICION_INICIO, RECIBIR_DATOS_MOVIMIENTO, MOVER_X , MOVER_Y , MOVER_Z , TERMINAR_MOVIMIENTO } mystate=START;
+enum state { START, ESPERA_COMANDO_HOME ,HACER_HOME, ESPERA_POSICION_INICIO, RECIBIR_DATOS_MOVIMIENTO, MOVER_X , MOVER_Y , MOVER_Z , TERMINAR_MOVIMIENTO } mystate=START;
 
   while(true){
   switch (mystate){
@@ -58,7 +62,7 @@ enum state { START, ESPERA_COMANDO_HOME ,HACER_HOME, ESPERA_POSICION_INICIO, MOV
               if (charRecibido =='E'){ 
                                                 //Aqui ya, SI retiramos el caracter del buffer con una lectura normal para que no afecte a las siguientes lecturas.
                     Serial.print(charRecibido);
-                    Serial.read(); //limpianos del buffer RX el caracter E
+                    Serial.read(); //limpiaMos el buffer RX el caracter E
                     mystate = START;
                     return;
                     }
@@ -73,12 +77,12 @@ enum state { START, ESPERA_COMANDO_HOME ,HACER_HOME, ESPERA_POSICION_INICIO, MOV
 
     break;
     
-         case HACER_HOME: //codigo para hacer home_inicial()
+         case HACER_HOME: 
 
          {
 
               Serial.print("3"); //ENVÍO A LABVIEW FLAG DE ESTADO
-              Home(); //AQUI MOVEMOS MOTORES
+              Home(); //AQUI MOVEMOS MOTORES A HOME POR SI EL CABEZAL POR ALGUNA SITUACION INESPERADA SE ENCUENTRA FUERA DE HOME ANTES DE COMENZAR LA TAREA.
               Serial.print("FH");//ENVIO A LABVBIEW UN COMANDO DE FIN DEL MOVIMIENTO.
               delay(100);
       
@@ -87,47 +91,7 @@ enum state { START, ESPERA_COMANDO_HOME ,HACER_HOME, ESPERA_POSICION_INICIO, MOV
     
     break;
 
-    /*case ESPERA_POSICION_INICIO: //LISTEN TO LABVIEW: ESPERAMOS A QUE LABVIEW NOS ENVIE EL COMANDO DE IR A POSICION DE INICIO CON EL CABEZAL
-     {
-               Serial.print("4"); //ENVÍO A LABVIEW FLAG DE ESTADO
-               char comandoInicio=LeerComando_1byte();
-               if (comandoInicio == 'I') { //SI EL COMANDO ES EL CORRECTO MUEVO EL CABEZAL DESDE HOME HASTA UNA POSICION DE INICIO
-                   mystate = MOVER_POSICION_INICIO;
-    //Serial.print(comando1);
-
-                 }
-               else if(comandoInicio != 'I') {
-               mystate = ESPERA_POSICION_INICIO;
-
-                  }
-       }
     
-
-    break;
-
-    case MOVER_POSICION_INICIO : //CODIGO PARA MOVER MOTORES Y COLOCAR EL CABEZAL EN POSICION DE INICIO 
-         {
-               Serial.print("5");
-               enableMotores();
-               digitalWrite(pul_x,LOW);
-               delay(10);
-               digitalWrite(pul_y,LOW);
-               delay(10);
-               derecha_X();
-               delay(10);
-               movimiento(pul_x,5000,50); //FUNCION QUE ENVIA 25000 PASOS AL MOTOR Y
-               avance_Y();
-               delay(100);
-               movimiento(pul_y,5000,50); //FUNCION QUE ENVIA 25000 PASOS AL MOTOR Y
-               delay(10);
-               Serial.print("FI"); //ENVIO A LAVBIEW UN COMANDO DE FIN DEL MOVIMIENTO.
-               delay(500);
-
-    mystate = RECIBIR_DATOS_MOVIMIENTO;
-
-    }
-
-    break;*/
 
     case  RECIBIR_DATOS_MOVIMIENTO: //LISTEN TO LABVIEW: RECIBE UNA TRAMA DE BYTES DE STRING CUANDO PRESIONAMOS UN BOTON BOOLEANO EN LABVIEW
                                     //TRAMA ENVIADA DESDE LABVIEW ---> 1 BYTE : SENTIDO [0,1] + \n + "n BYTES de PASOS" + \n + 1BYTE: eje [X ó Y]+\n 
@@ -151,13 +115,13 @@ enum state { START, ESPERA_COMANDO_HOME ,HACER_HOME, ESPERA_POSICION_INICIO, MOV
 
               else{
               
-                    String dato;
+                    String dato; //LEEMOS LOS 3 DATOS DE MOVIMIENTO SENTIDO + PASOS + EJE
                     dato = Serial.readStringUntil('\n');
                     trama.sentido=dato.toInt();
                     dato = Serial.readStringUntil('\n');
                     trama.pasos=dato.toInt();
                     String ejeStr = Serial.readStringUntil('\n');
-                    trama.eje = ejeStr.charAt(0);
+                    trama.eje = ejeStr.charAt(0); //eje está declarado como char y el dato del puerto es un String, aunque sea solo 1 letra, hay que hacer conversion de tipo
 
               }
        
@@ -278,7 +242,7 @@ void testAsics() {
 //////////////////////////////////////////////////////////////
 // POSICION ACTUAL CABEZAL
 //////////////////////////////////////////////////////////////
-//Posicion posActual; //VARIABLE GLOBAL QUE GUARDA LA POSICION ABSOLUTA DEL CABEZAL CADA VEZ QUE SE REALIZA UN MOVIMIENTO
+//Posicion posActual; //VARIABLE GLOBAL QUE GUARDA LA POSICION ABSOLUTA DEL CABEZAL CADA VEZ QUE SE REALIZA UN MOVIMIENTO. se decide declararla como extern en una libreria
 
 //////////////////////////////////////////////////////////////
 // POSICION SOCKET
@@ -293,12 +257,12 @@ Bandeja bandeja_IN;
 Bandeja bandeja_OK;
 Bandeja bandeja_NOK;
 
-Celda celda_IN_INICIO;
+Celda celda_IN_INICIO; //DESDE LABVIEW
 Celda celda_OK_INICIO;
 Celda celda_NOK_INICIO;
 
-Celda celdaEntrada; //Variable Celda de INICIO. En la primera iteracion contendrá el valor de la coordenada de inicio que le enviamos desde labview. Despues se irá actualizando en el bucle
-Celda celdaOK; //Variable Celda de .En la primera iteracion contendrá el valor de la coordenada de inicio que le enviamos desde labview.Despues se irá actualizando en el bucle
+Celda celdaEntrada; //Variable Celda de entrada. En la primera iteracion contendrá el valor de la coordenada de inicio que le enviamos desde labview. Despues se irá actualizando en el bucle
+Celda celdaOK; 
 Celda celdaNOK;
 
 String resultadoTest;
@@ -319,7 +283,7 @@ while (true){
                 {
                 Serial.print("R!");
                 delay(100);
-   //contesto ready
+                                         //contesto ready
                 mystate = ESPERA_HOME;
                 } //contesto ready
 
@@ -333,7 +297,7 @@ while (true){
 
         case ESPERA_HOME:  //LISTEN TO LABVIEW : LEEMOS UN BYTE 'H' PARA HACER HOME   
         {
-     //ENVÍO A LABVIEW FLAG DE ESTADO
+              //ENVÍO A LABVIEW FLAG DE ESTADO
               Serial.print("2");//LABVIEW DEBE LEER ESTADO 2
               char comandoHome=LeerComando_1byte();//polling
     
@@ -424,12 +388,12 @@ while (true){
            
              else if (charRecibido=='1'){   //CARÁCTER ENVIADO POR LABVIEW COMO SEÑAL DE COMIENZO
 			      Serial.read();
-                  posActual.x=0;
+                  posActual.x=0; //reseteamos la strcutura que almacena el calculo de la posicion del cabezal en cada movimiento, antes de comenzar la tarea
                   posActual.y=0;
                   posActual.z=0;
                   celdaEntrada.fila  = celda_IN_INICIO.fila;
-                  celdaEntrada.columna  = celda_IN_INICIO.columna;				  //Variable Celda de INICIO. En la primera iteracion contendrá el valor de la coordenada de inicio que le enviamos desde labview. Despues se irá actualizando en el bucle
-                  celdaOK.fila = celda_OK_INICIO.fila; //Variable Celda de .En la primera iteracion contendrá el valor de la coordenada de inicio que le enviamos desde labview.Despues se irá actualizando en el bucle
+                  celdaEntrada.columna  = celda_IN_INICIO.columna;//Variable Celda de INICIO. En la primera iteracion contendrá el valor de la coordenada de inicio que le enviamos desde labview. Despues se irá actualizando en el bucle
+                  celdaOK.fila = celda_OK_INICIO.fila; 
 				  celdaOK.columna = celda_OK_INICIO.columna;
                   celdaNOK.fila = celda_NOK_INICIO.fila;
 				  celdaNOK.columna = celda_NOK_INICIO.columna;
@@ -538,7 +502,7 @@ void traspasoAsics(){
   //////////////////////////////////////////////////////////////
 // POSICION ACTUAL CABEZAL
 //////////////////////////////////////////////////////////////
-//Posicion posActual; //VARIABLE GLOBAL QUE GUARDA LA POSICION ABSOLUTA DEL CABEZAL CADA VEZ QUE SE REALIZA UN MOVIMIENTO
+//Posicion posActual; //VARIABLE GLOBAL QUE GUARDA LA POSICION ABSOLUTA DEL CABEZAL CADA VEZ QUE SE REALIZA UN MOVIMIENTO. se decide declararla como extern en una libreria
 
 //////////////////////////////////////////////////////////////
 // POSICION SOCKET
@@ -765,7 +729,7 @@ void leerQR(){
   //////////////////////////////////////////////////////////////
 // POSICION ACTUAL CABEZAL
 //////////////////////////////////////////////////////////////
-//Posicion posActual; //VARIABLE GLOBAL TIPO STRUCT QUE GUARDA LA POSICION ABSOLUTA DEL CABEZAL CADA VEZ QUE SE REALIZA UN MOVIMIENTO
+//Posicion posActual; //VARIABLE GLOBAL QUE GUARDA LA POSICION ABSOLUTA DEL CABEZAL CADA VEZ QUE SE REALIZA UN MOVIMIENTO. se decide declararla como extern en una libreria
 
 //////////////////////////////////////////////////////////////
 // POSICION SOCKET
@@ -850,7 +814,7 @@ switch (mystate){
     break;
 
     case  RECIBIR_DATOS_ESTACION: //LISTEN TO LABVIEW: RECIBE UNA TRAMA DE BYTES DE STRING CUANDO PRESIONAMOS UN BOTON BOOLEANO EN LABVIEW
-                                  //TRAMA ENVIADA DESDE LABVIEW ---> DATOS BANDEJA DE ENTRADA + DATOS BANDEJA OK + DATOS BANDEJA NOK + DATOS SOCKET
+                                  //TRAMA ENVIADA DESDE LABVIEW ---> DATOS BANDEJA DE ENTRADA 
           {                                
               Serial.print("4"); //ENVÍO A LABVIEW FLAG DE ESTADO QUE LEO EN EL ESTADO DE LABVIEW "ENVIAR_CONFIG_TEST"
     
@@ -877,7 +841,7 @@ switch (mystate){
 
 
     case  RECIBIR_DATOS_LECTURAQR: //LISTEN TO LABVIEW: RECIBE UNA TRAMA DE BYTES DE STRING CUANDO PRESIONAMOS UN BOTON BOOLEANO EN LABVIEW
-                                    //TRAMA ENVIADA DESDE LABVIEW ---> DATOS BANDEJA DE ENTRADA + DATOS BANDEJA OK + DATOS BANDEJA NOK + DATOS SOCKET
+                                    //TRAMA ENVIADA DESDE LABVIEW ---> DATOS celda DE ENTRADA
           {                                
               Serial.print("5"); //ENVÍO A LABVIEW FLAG DE ESTADO 
     
@@ -940,12 +904,12 @@ switch (mystate){
         }
     break;
 
-    case  DEJAR_SOCKET:                                 //DEJA UN CHIP EN EL SOCKET
+    case  DEJAR_SOCKET://DEJA UN CHIP EN EL SOCKET
 
         {   dejarEnSocket(socket); 
-            Serial.print("1");			//CALCULA EL TRAYECTO PARA IR AL SOCKET DESDE LA POSICION QUE SE ENCUENTRE EL CABEZAL Y LA POSICION FIJA DEL SOCKET.
-            delay(500);                                           //EJECUTA EL MOVIMIENTO
-                                                       //ACTUALIZA LA POSICION ABSOLUTA DEL CABEZAL EN X,Y,Z--> posActual
+            Serial.print("1");	//CALCULA EL TRAYECTO PARA IR AL SOCKET DESDE LA POSICION QUE SE ENCUENTRE EL CABEZAL Y LA POSICION FIJA DEL SOCKET.
+            delay(500);         //EJECUTA EL MOVIMIENTO
+                                //ACTUALIZA LA POSICION ABSOLUTA DEL CABEZAL EN X,Y,Z--> posActual
             
             mystate = ESPERAR_LECTURA_QR;
 
@@ -1000,7 +964,7 @@ switch (mystate){
     {
             while(!Serial.available()){}; //POLLING//////////////////////////////////
             String fin_LECTURA_QR = Serial.readString();
-            if (fin_LECTURA_QR =="SI") //si labview determina que ha terminado de testear todos los asics nos envía SI  
+            if (fin_LECTURA_QR =="SI") //si labview determina que ha terminado de leer todos los QR nos envía SI  
     {             Home(); 
                   Serial.print("FH");
                   mystate = RECIBIR_DATOS_ESTACION; 

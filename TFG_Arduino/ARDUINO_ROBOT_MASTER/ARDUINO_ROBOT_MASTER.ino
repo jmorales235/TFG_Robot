@@ -1,23 +1,23 @@
 
 
-
+/*FICHERO QUE CONTIENE LA MAQUINA DE ESTADOS QUE SE COMUNICA CON EL VI ROBOT MASTER DE LABIVEW PARA LA GESTION DE LAS TAREAS
+CONSTITUYE EL PRIMER NIVEL DE LA ARQUITECTURA QUE GESTIONA EL SOFTWARE DEL ROBOT*/
 
 /*VÁLIDO PARA ARDUINO MEGA 2650
 EL CODIGO ARDUINO MASTER DEBE:
 CONFIGURAR EL PUERTO SERIAL
-CONTENER LAS VARIABLES y FUNCIONES GLOBALES QUE SE UTILIZARÁN A LO LARGO DEL PROGRAMA
-INICIALIZAR EL VALOR DE LAS VARIABLES POR DEFECTO
-ESPERAR A QUE LABVIEW LE DIGA QUÉ TAREA REALIZAR, NO QUEDA MÁS REMEDIO QUE HACER POLLING EN EL PUERTO SERIAL
+DEFINIR LA FSM QUE GESTIONA LAS TAREAS
+ESPERAR A QUE LABVIEW LE DIGA QUÉ TAREA REALIZAR, HACER POLLING EN EL PUERTO SERIAL
 CONTENER LA RUTINA/S DE ECHO CON LABVIEW ANTES DE COMENZAR UNA TAREA CONFIRMANDO LA ORDEN QUE HA RECIBIDO
-GESTIONAR LA TRAMA DE DATOS QUE RECIBE DE LABVIEW, Y SELECCIONAR LA TAREA EN FUNCION DE ELLO
+GESTIONAR LOS COMANDOS QUE RECIBE DE LABVIEW, Y SELECCIONAR LA TAREA EN FUNCION DE ELLO
 
-QUEDARSE ESPERANDO A QUE LA TAREA SE TERMINE (¿QUIEN INDICA QUE SE HA ACABADO LA TAREA, LABVIEW A ARDUINO Ó ARDUINO A LABVIEW?)
 
-LOS DATOS QUE SE VAN A INTERCAMBIAR ARDUINO Y LABVIEW SERÁN EN TRAMAS DE BYTES CONSECUTIVAS Ó DE FLAGS DE 1 BYTE.
+
+LOS DATOS QUE SE VAN A INTERCAMBIAR ARDUINO Y LABVIEW SERÁN EN TRAMAS DE BYTES (STRING) CONSECUTIVAS Ó DE FLAGS DE 1 BYTE (CHAR).
 */
 
 
-#include <libreria_robot.h> 
+
 /*los ficheros .h y.cpp que nos creamos como usuario deben estar en una carpeta llamada "libraries" situada en el "sketchbook location" definido en "Preferences", para que el compilador las vea.
 asegurarse de que la extension real de los ficheros sean .h y .cpp y NO sea .txt,para ello habilitar la opcion visualizar extension de fichero en windows.
 dentro de libraries ya hacemos una carpeta que se llame como el fichero .h y .cpp que deben estar dentro.*/
@@ -25,8 +25,9 @@ dentro de libraries ya hacemos una carpeta que se llame como el fichero .h y .cp
 #include <config_pines_arduino.h> //en este fichero mapeamos las variables de pin a los pines fisicos de arduino con directivas #define
 /*config_pines define las señales: dir_y, pul_y, ena_y, dir_x ,dir_x ,pul_x ,ena_x, dir_z, pul_z ,ena_z ,bomba ,pin_servo ,sensor_x ,sensor_y ,sensor_z*/
 
-#include <libreria_tareas.h>
-#include <libreria_funciones_tareas.h>
+#include <libreria_tareas.h> //FUNCIONES DE ALTO NIVEL QUE EJECUTAN LAS TAREAS DEL ROBOT
+#include <libreria_funciones_tareas.h> // FUNCIONES DE MEDIO NIVEL QUE DEFINEN LOS MOVIMIENTOS DEL ROBOT
+#include <libreria_robot.h> //FUNCIONES DE BAJO NIVEL QUE ACCEDEN DIRECTAMENTE A LOS MOTORES O SENSORES FC
 
 
 
@@ -52,16 +53,16 @@ void setup() {
   pinMode(bomba,OUTPUT);
 
   
-  digitalWrite(pul_x, LOW);
+  digitalWrite(pul_x, LOW);//ESCRIBIMOS CERO LÓGICO EN LAS ENTRADAS DEL DRIVER
   digitalWrite(pul_y, LOW);
   digitalWrite(pul_z, LOW);
-  disableMotores();
+  disableMotores(); //ACTUAMOS EN LA SEÑAL DE ENABLE DE LOS DRIVERS
   
 
 
-  initServo();
-  //SERVO DEL SOCKET
-  relajacionSocket();
+  initServo(); //INICIALIZAMOS EL SERVO DEL SOCKET
+
+  relajacionSocket(); //LO MOVEMOS A SU POSICION DE REPOSO POR SI ESTUVIESE ACTIVADO
   
   }
 
@@ -133,7 +134,7 @@ void loop() {
         {
            //Serial.print('2');
            enableMotores();//energiza los motores , no se pueden mover con la mano
-           Home_inicial();
+           Home_inicial();//EN LA INICIALIZACIÓN DEL PUERTO SERIE EN LABVIEW, POR CAUSA DESCONOCIDA, EL CABEZAL QUE ESTÁ EN HOME, HACE UNA SACUDIDA Y SE MUEVE RESPECTO DE LOS FC. ASI QUE LO SACAMOS DE HOME UNOS MM, Y REGRESAMOS.
            moverCabezal(); //llama a la maquina de estados que mueve el cabezal manualmente
            state = ESPERA_PING;
 
@@ -151,6 +152,7 @@ void loop() {
         break;
 
       case LEER_QR:    //FRONT PANEL DE LABVIEW : LEER QR
+        enableMotores();
         Home_inicial();
         leerQR();
         state = ESPERA_PING;
@@ -158,7 +160,8 @@ void loop() {
         break;
 
       case TRASLADO_ASICS: //FRONT PANEL DE LABVIEW : MOVER ASICS
-
+        enableMotores();
+        Home_inicial();
         traspasoAsics();
         state = ESPERA_PING;
 

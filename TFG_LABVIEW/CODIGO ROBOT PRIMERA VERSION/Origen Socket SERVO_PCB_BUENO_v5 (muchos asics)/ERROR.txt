@@ -1,0 +1,1 @@
+Error -1073807343 occurred at VISA Write in Tektronix DPO MSO 2000 4000 Series.lvlib:Auto Scale Math Waveform.vi->TEK_Configura formula Math_ADDERS.vi->Configure osciloscopio FULL con generador_ADDERS.vi->Test Asic Rate Scan Adders.vi->Test Asic V1.0_2019_2.vi->QR_registro_testcompleto.vi

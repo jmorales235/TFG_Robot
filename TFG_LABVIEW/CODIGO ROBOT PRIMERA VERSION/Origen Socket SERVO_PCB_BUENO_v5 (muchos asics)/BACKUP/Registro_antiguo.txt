@@ -1,0 +1,863 @@
+
+28/10/2020
+Rubén Marco	28/10/2020	ATL1v2E64409.1118/130821	NOK	Fila 0	Columna 0
+Rubén Marco	28/10/2020	ATL1v2E64409.1118/130821	OK	Fila 0	Columna 0
+Rubén Marco	28/10/2020	ATL1v2E64409.1118/130821	OK	Fila 0	Columna 1
+Rubén Marco	28/10/2020	ATL1v2E64409.1118/130821	NOK	Fila 0	Columna 1
+
+28/10/2020
+Rubén Marco	09.41.52	ATL1v2E64409.1118/130821	OK	Fila 0	Columna 2
+Rubén Marco	09.44.24	ATL1v2E64409.1118/130821	NOK	Fila 0	Columna 2
+
+28/10/2020
+Rubén Marco	09:49:49	ATL1v2E64409.1118/130821	OK	Fila 0	Columna 3
+Rubén Marco	09:52:22	ATL1v2E64409.1118/130821	NOK	Fila 0	Columna 3
+Rubén Marco	09:54:54	ATL1v2E64409.1118/130821	NOK	Fila 0	Columna 4
+Rubén Marco	09:57:26	ATL1v2E64409.1118/130821	OK	Fila 0	Columna 4
+Rubén Marco	09:59:58	ATL1v2E64409.1118/130821	OK	Fila 0	Columna 5
+Rubén Marco	10:02:30	ATL1v2E64409.1118/130821	OK	Fila 0	Columna 6
+Rubén Marco	10:05:01	ATL1v2E64409.1118/130821	OK	Fila 0	Columna 7
+Rubén Marco	10:07:33	ATL1v2E64409.1118/130821	OK	Fila 0	Columna 8
+
+28/10/2020
+Rubén Marco	10:15:42	ATL1v2E64409.1118/130821	OK	Fila 0	Columna 9
+Rubén Marco	10:18:13	ATL1v2E64409.1118/130821	OK	Fila 1	Columna 0
+Rubén Marco	10:20:44	ATL1v2E64409.1118/130821	OK	Fila 1	Columna 1
+Rubén Marco	10:23:16	ATL1v2E64409.1118/130821	NOK	Fila 0	Columna 5
+
+28/10/2020
+Rubén Marco	10:35:29	ATL1v2E64409.1118/130821	OK	Fila 1	Columna 2
+
+28/10/2020
+Rubén Marco	10:42:33	ATL1v2E64409.1118/130821	NOK	Fila 0	Columna 6
+
+28/10/2020
+Rubén Marco	10:47:40	ATL1v2E64409.1118/130821	NOK	Fila 0	Columna 7
+
+28/10/2020
+Rubén Marco	11:19:32	ATL1v2E64409.1118/130821	OK	Fila 1	Columna 3
+
+28/10/2020
+Rubén Marco	11:56:29	ATL1v2E64409.1118/130821	OK	Fila 0	Columna 9
+Rubén Marco	11:59:02	ATL1v2E64409.1118/130821	NOK	Fila 0	Columna 9
+
+28/10/2020
+Rubén Marco	12:46:58	ATL1v2E64409.1118/130821	NOK	Fila 0	Columna 9
+Rubén Marco	12:49:30	ATL1v2E64409.1118/130821	OK	Fila 0	Columna 9
+Rubén Marco	12:52:03	ATL1v2E64409.1118/130821	OK	Fila 1	Columna 0
+
+28/10/2020
+Rubén Marco	12:56:46	ATL1v2E64409.1118/130821	NOK	Fila 0	Columna 9
+
+28/10/2020
+Rubén Marco	13:12:31	ATL1v2E64409.1118/130821	OK	Fila 1	Columna 1
+Rubén Marco	13:15:01	ATL1v2E64409.1118/130821	OK	Fila 1	Columna 2
+Rubén Marco	13:17:32	ATL1v2E64409.1118/130821	OK	Fila 1	Columna 3
+
+28/10/2020
+Rubén Marco	14:08:59	ATL1v2E64409.1118/130821	NOK	Fila 1	Columna 0
+Rubén Marco	14:11:29	ATL1v2E64409.1118/130821	NOK	Fila 1	Columna 1
+
+28/10/2020
+Rubén Marco	14:20:15	ATL1v2E64409.1118/130821	NOK	Fila 1	Columna 0
+Rubén Marco	14:22:29	ATL1v2E64409.1118/130821	OK	Fila 0	Columna 9
+
+28/10/2020
+Rubén Marco	14:27:14	ATL1v2E64409.1118/130821	OK	Fila 0	Columna 9
+Rubén Marco	14:29:46	ATL1v2E64409.1118/130821	OK	Fila 1	Columna 0
+Rubén Marco	14:32:18	ATL1v2E64409.1118/130821	NOK	Fila 1	Columna 0
+
+28/10/2020
+Rubén Marco	14:35:22	ATL1v2E64409.1118/130821	OK	Fila 0	Columna 9
+Rubén Marco	14:37:54	ATL1v2E64409.1118/130821	OK	Fila 1	Columna 0
+Rubén Marco	14:40:26	ATL1v2E64409.1118/130821	NOK	Fila 1	Columna 0
+Rubén Marco	14:42:58	ATL1v2E64409.1118/130821	OK	Fila 1	Columna 1
+
+28/10/2020
+Rubén Marco	14:50:56	ATL1v2E64409.1118/130821	OK	Fila 0	Columna 0
+Rubén Marco	14:53:29	ATL1v2E64409.1118/130821	OK	Fila 0	Columna 1
+Rubén Marco	14:56:01	ATL1v2E64409.1118/130821	NOK	Fila 0	Columna 0
+Rubén Marco	14:58:33	ATL1v2E64409.1118/130821	NOK	Fila 0	Columna 1
+Rubén Marco	15:01:06	ATL1v2E64409.1118/130821	NOK	Fila 0	Columna 2
+Rubén Marco	15:03:38	ATL1v2E64409.1118/130821	OK	Fila 0	Columna 2
+Rubén Marco	15:06:10	ATL1v2E64409.1118/130821	OK	Fila 0	Columna 3
+Rubén Marco	15:08:43	ATL1v2E64409.1118/130821	NOK	Fila 0	Columna 3
+Rubén Marco	15:11:15	ATL1v2E64409.1118/130821	OK	Fila 0	Columna 4
+Rubén Marco	15:13:47	ATL1v2E64409.1118/130821	OK	Fila 0	Columna 5
+Rubén Marco	15:16:19	ATL1v2E64409.1118/130821	NOK	Fila 0	Columna 4
+Rubén Marco	15:18:50	ATL1v2E64409.1118/130821	NOK	Fila 0	Columna 5
+Rubén Marco	15:21:22	ATL1v2E64409.1118/130821	NOK	Fila 0	Columna 6
+Rubén Marco	15:23:54	ATL1v2E64409.1118/130821	OK	Fila 0	Columna 6
+Rubén Marco	15:26:26	ATL1v2E64409.1118/130821	OK	Fila 0	Columna 7
+Rubén Marco	15:28:57	ATL1v2E64409.1118/130821	OK	Fila 0	Columna 8
+Rubén Marco	15:31:29	ATL1v2E64409.1118/130821	OK	Fila 0	Columna 9
+Rubén Marco	15:34:01	ATL1v2E64409.1118/130821	NOK	Fila 0	Columna 7
+Rubén Marco	15:36:32	ATL1v2E64409.1118/130821	OK	Fila 1	Columna 0
+Rubén Marco	15:39:03	ATL1v2E64409.1118/130821	OK	Fila 1	Columna 1
+Rubén Marco	15:41:34	ATL1v2E64409.1118/130821	NOK	Fila 0	Columna 8
+Rubén Marco	15:44:05	ATL1v2E64409.1118/130821	OK	Fila 1	Columna 2
+Rubén Marco	15:45:36	ATL1v2E64409.1118/130821	OK	Fila 1	Columna 3
+Rubén Marco	15:48:38	ATL1v2E64409.1118/130821	OK	Fila 1	Columna 4
+Rubén Marco	15:51:08	ATL1v2E64409.1118/130821	OK	Fila 1	Columna 5
+Rubén Marco	15:53:38	ATL1v2E64409.1118/130821	OK	Fila 1	Columna 6
+Rubén Marco	15:56:09	ATL1v2E64409.1118/130821	OK	Fila 1	Columna 7
+Rubén Marco	15:58:39	ATL1v2E64409.1118/130821	OK	Fila 1	Columna 8
+Rubén Marco	16:01:10	ATL1v2E64409.1118/130821	NOK	Fila 0	Columna 9
+Rubén Marco	16:03:41	ATL1v2E64409.1118/130821	NOK	Fila 1	Columna 0
+Rubén Marco	16:06:11	ATL1v2E64409.1118/130821	NOK	Fila 1	Columna 1
+Rubén Marco	16:08:41	ATL1v2E64409.1118/130821	OK	Fila 1	Columna 9
+Rubén Marco	16:11:10	ATL1v2E64409.1118/130821	NOK	Fila 1	Columna 2
+Rubén Marco	16:13:40	ATL1v2E64409.1118/130821	NOK	Fila 1	Columna 3
+Rubén Marco	16:16:10	ATL1v2E64409.1118/130821	NOK	Fila 1	Columna 4
+Rubén Marco	16:18:40	ATL1v2E64409.1118/130821	NOK	Fila 1	Columna 5
+Rubén Marco	16:21:10	ATL1v2E64409.1118/130821	NOK	Fila 1	Columna 6
+Rubén Marco	16:23:40	ATL1v2E64409.1118/130821	NOK	Fila 1	Columna 7
+Rubén Marco	16:26:10	ATL1v2E64409.1118/130821	OK	Fila 2	Columna 0
+Rubén Marco	16:28:39	ATL1v2E64409.1118/130821	NOK	Fila 1	Columna 8
+Rubén Marco	16:31:08	ATL1v2E64409.1118/130821	OK	Fila 2	Columna 1
+Rubén Marco	16:33:37	ATL1v2E64409.1118/130821	NOK	Fila 1	Columna 9
+Rubén Marco	16:36:06	ATL1v2E64409.1118/130821	NOK	Fila 2	Columna 0
+Rubén Marco	16:38:35	ATL1v2E64409.1118/130821	OK	Fila 2	Columna 2
+
+29/10/2020
+Rubén Marco	08:40:35	ATL1v2E64409.1118/130821	NOK	Fila 2	Columna 1
+Rubén Marco	08:43:03	ATL1v2E64409.1118/130821	NOK	Fila 2	Columna 2
+Rubén Marco	08:45:32	ATL1v2E64409.1118/130821	NOK	Fila 2	Columna 3
+Rubén Marco	08:48:00	ATL1v2E64409.1118/130821	OK	Fila 2	Columna 3
+Rubén Marco	08:50:29	ATL1v2E64409.1118/130821	NOK	Fila 2	Columna 4
+Rubén Marco	08:52:58	ATL1v2E64409.1118/130821	NOK	Fila 2	Columna 5
+Rubén Marco	08:55:26	ATL1v2E64409.1118/130821	OK	Fila 2	Columna 4
+Rubén Marco	08:57:54	ATL1v2E64409.1118/130821	OK	Fila 2	Columna 5
+Rubén Marco	09:00:22	ATL1v2E64409.1118/130821	OK	Fila 2	Columna 6
+Rubén Marco	09:02:50	ATL1v2E64409.1118/130821	NOK	Fila 2	Columna 6
+Rubén Marco	09:05:18	ATL1v2E64409.1118/130821	NOK	Fila 2	Columna 7
+Rubén Marco	09:07:47	ATL1v2E64409.1118/130821	NOK	Fila 2	Columna 8
+Rubén Marco	09:10:15	ATL1v2E64409.1118/130821	OK	Fila 2	Columna 7
+Rubén Marco	09:12:43	ATL1v2E64409.1118/130821	NOK	Fila 2	Columna 9
+Rubén Marco	09:15:11	ATL1v2E64409.1118/130821	NOK	Fila 3	Columna 0
+Rubén Marco	09:17:38	ATL1v2E64409.1118/130821	OK	Fila 2	Columna 8
+Rubén Marco	09:20:06	ATL1v2E64409.1118/130821	NOK	Fila 3	Columna 1
+Rubén Marco	09:22:33	ATL1v2E64409.1118/130821	NOK	Fila 3	Columna 2
+Rubén Marco	09:25:00	ATL1v2E64409.1118/130821	NOK	Fila 3	Columna 3
+Rubén Marco	09:27:26	ATL1v2E64409.1118/130821	NOK	Fila 3	Columna 4
+Rubén Marco	09:29:53	ATL1v2E64409.1118/130821	OK	Fila 2	Columna 9
+Rubén Marco	09:32:21	ATL1v2E64409.1118/130821	NOK	Fila 3	Columna 5
+Rubén Marco	09:34:47	ATL1v2E64409.1118/130821	NOK	Fila 3	Columna 6
+Rubén Marco	09:37:14	ATL1v2E64409.1118/130821	OK	Fila 3	Columna 0
+Rubén Marco	09:39:41	ATL1v2E64409.1118/130821	OK	Fila 3	Columna 1
+Rubén Marco	09:42:08	ATL1v2E64409.1118/130821	OK	Fila 3	Columna 2
+Rubén Marco	09:44:35	ATL1v2E64409.1118/130821	NOK	Fila 3	Columna 7
+Rubén Marco	09:47:01	ATL1v2E64409.1118/130821	NOK	Fila 3	Columna 8
+Rubén Marco	09:49:27	ATL1v2E64409.1118/130821	NOK	Fila 3	Columna 9
+Rubén Marco	09:51:53	ATL1v2E64409.1118/130821	OK	Fila 3	Columna 3
+Rubén Marco	09:54:19	ATL1v2E64409.1118/130821	OK	Fila 3	Columna 4
+Rubén Marco	09:56:45	ATL1v2E64409.1118/130821	NOK	Fila 4	Columna 0
+Rubén Marco	09:59:11	ATL1v2E64409.1118/130821	OK	Fila 3	Columna 5
+Rubén Marco	10:01:37	ATL1v2E64409.1118/130821	OK	Fila 3	Columna 6
+Rubén Marco	10:04:03	ATL1v2E64409.1118/130821	OK	Fila 3	Columna 7
+Rubén Marco	10:06:30	ATL1v2E64409.1118/130821	OK	Fila 3	Columna 8
+Rubén Marco	10:08:56	ATL1v2E64409.1118/130821	OK	Fila 3	Columna 9
+Rubén Marco	10:11:21	ATL1v2E64409.1118/130821	NOK	Fila 4	Columna 1
+Rubén Marco	10:13:46	ATL1v2E64409.1118/130821	OK	Fila 4	Columna 0
+Rubén Marco	10:16:11	ATL1v2E64409.1118/130821	OK	Fila 4	Columna 1
+Rubén Marco	10:18:36	ATL1v2E64409.1118/130821	NOK	Fila 4	Columna 2
+Rubén Marco	10:21:01	ATL1v2E64409.1118/130821	NOK	Fila 4	Columna 3
+Rubén Marco	10:23:26	ATL1v2E64409.1118/130821	OK	Fila 4	Columna 2
+Rubén Marco	10:25:51	ATL1v2E64409.1118/130821	NOK	Fila 4	Columna 4
+Rubén Marco	10:28:16	ATL1v2E64409.1118/130821	NOK	Fila 4	Columna 5
+Rubén Marco	10:30:41	ATL1v2E64409.1118/130821	NOK	Fila 4	Columna 6
+Rubén Marco	10:33:06	ATL1v2E64409.1118/130821	OK	Fila 4	Columna 3
+Rubén Marco	10:35:30	ATL1v2E64409.1118/130821	OK	Fila 4	Columna 4
+Rubén Marco	10:37:55	ATL1v2E64409.1118/130821	NOK	Fila 4	Columna 7
+Rubén Marco	10:40:19	ATL1v2E64409.1118/130821	NOK	Fila 4	Columna 8
+Rubén Marco	10:42:44	ATL1v2E64409.1118/130821	OK	Fila 4	Columna 5
+Rubén Marco	10:45:08	ATL1v2E64409.1118/130821	NOK	Fila 4	Columna 9
+Rubén Marco	10:47:32	ATL1v2E64409.1118/130821	NOK	Fila 5	Columna 0
+Rubén Marco	10:49:56	ATL1v2E64409.1118/130821	OK	Fila 4	Columna 6
+Rubén Marco	10:52:20	ATL1v2E64409.1118/130821	NOK	Fila 5	Columna 1
+Rubén Marco	10:54:44	ATL1v2E64409.1118/130821	OK	Fila 4	Columna 7
+Rubén Marco	10:57:08	ATL1v2E64409.1118/130821	OK	Fila 4	Columna 8
+Rubén Marco	10:59:32	ATL1v2E64409.1118/130821	NOK	Fila 5	Columna 2
+Rubén Marco	11:01:55	ATL1v2E64409.1118/130821	NOK	Fila 5	Columna 3
+Rubén Marco	11:04:18	ATL1v2E64409.1118/130821	OK	Fila 4	Columna 9
+Rubén Marco	11:06:42	ATL1v2E64409.1118/130821	OK	Fila 5	Columna 0
+Rubén Marco	11:09:05	ATL1v2E64409.1118/130821	OK	Fila 5	Columna 1
+Rubén Marco	11:11:29	ATL1v2E64409.1118/130821	OK	Fila 5	Columna 2
+Rubén Marco	11:13:52	ATL1v2E64409.1118/130821	NOK	Fila 5	Columna 4
+Rubén Marco	11:16:15	ATL1v2E64409.1118/130821	NOK	Fila 5	Columna 5
+Rubén Marco	11:18:38	ATL1v2E64409.1118/130821	NOK	Fila 5	Columna 6
+Rubén Marco	11:21:01	ATL1v2E64409.1118/130821	OK	Fila 5	Columna 3
+Rubén Marco	11:23:24	ATL1v2E64409.1118/130821	OK	Fila 5	Columna 4
+Rubén Marco	11:25:46	ATL1v2E64409.1118/130821	OK	Fila 5	Columna 5
+Rubén Marco	11:28:09	ATL1v2E64409.1118/130821	NOK	Fila 5	Columna 7
+Rubén Marco	11:30:31	ATL1v2E64409.1118/130821	OK	Fila 5	Columna 6
+Rubén Marco	11:32:54	ATL1v2E64409.1118/130821	NOK	Fila 5	Columna 8
+Rubén Marco	11:35:16	ATL1v2E64409.1118/130821	NOK	Fila 5	Columna 9
+Rubén Marco	11:37:39	ATL1v2E64409.1118/130821	NOK	Fila 6	Columna 0
+Rubén Marco	11:40:01	ATL1v2E64409.1118/130821	NOK	Fila 6	Columna 1
+Rubén Marco	11:42:23	ATL1v2E64409.1118/130821	NOK	Fila 6	Columna 2
+Rubén Marco	11:44:45	ATL1v2E64409.1118/130821	NOK	Fila 6	Columna 3
+Rubén Marco	11:47:06	ATL1v2E64409.1118/130821	NOK	Fila 6	Columna 4
+Rubén Marco	11:49:27	ATL1v2E64409.1118/130821	NOK	Fila 6	Columna 5
+Rubén Marco	11:51:48	ATL1v2E64409.1118/130821	OK	Fila 5	Columna 7
+Rubén Marco	11:54:10	ATL1v2E64409.1118/130821	OK	Fila 5	Columna 8
+
+29/10/2020
+Rubén Marco	12:51:14	ATL1v2E64409.1118/130821	OK	Fila 5	Columna 9
+Rubén Marco	12:53:36	ATL1v2E64409.1118/130821	OK	Fila 6	Columna 0
+Rubén Marco	12:55:58	ATL1v2E64409.1118/130821	NOK	Fila 6	Columna 6
+Rubén Marco	12:58:19	ATL1v2E64409.1118/130821	OK	Fila 6	Columna 1
+Rubén Marco	13:00:40	ATL1v2E64409.1118/130821	NOK	Fila 6	Columna 7
+Rubén Marco	13:03:01	ATL1v2E64409.1118/130821	OK	Fila 6	Columna 2
+Rubén Marco	13:05:22	ATL1v2E64409.1118/130821	OK	Fila 6	Columna 3
+Rubén Marco	13:07:42	ATL1v2E64409.1118/130821	NOK	Fila 6	Columna 8
+Rubén Marco	13:10:03	ATL1v2E64409.1118/130821	NOK	Fila 6	Columna 9
+Rubén Marco	13:12:24	ATL1v2E64409.1118/130821	OK	Fila 6	Columna 4
+Rubén Marco	13:14:45	ATL1v2E64409.1118/130821	NOK	Fila 7	Columna 0
+Rubén Marco	13:17:05	ATL1v2E64409.1118/130821	OK	Fila 6	Columna 5
+Rubén Marco	13:19:25	ATL1v2E64409.1118/130821	NOK	Fila 7	Columna 1
+Rubén Marco	13:21:45	ATL1v2E64409.1118/130821	NOK	Fila 7	Columna 2
+Rubén Marco	13:24:06	ATL1v2E64409.1118/130821	NOK	Fila 7	Columna 3
+Rubén Marco	13:26:25	ATL1v2E64409.1118/130821	NOK	Fila 7	Columna 4
+Rubén Marco	13:28:45	ATL1v2E64409.1118/130821	NOK	Fila 7	Columna 5
+Rubén Marco	13:31:04	ATL1v2E64409.1118/130821	NOK	Fila 7	Columna 6
+Rubén Marco	13:33:23	ATL1v2E64409.1118/130821	OK	Fila 6	Columna 6
+Rubén Marco	13:35:44	ATL1v2E64409.1118/130821	OK	Fila 6	Columna 7
+Rubén Marco	13:38:04	ATL1v2E64409.1118/130821	NOK	Fila 7	Columna 7
+Rubén Marco	13:40:23	ATL1v2E64409.1118/130821	NOK	Fila 7	Columna 8
+Rubén Marco	13:42:43	ATL1v2E64409.1118/130821	OK	Fila 6	Columna 8
+Rubén Marco	13:45:03	ATL1v2E64409.1118/130821	NOK	Fila 7	Columna 9
+Rubén Marco	13:47:22	ATL1v2E64409.1118/130821	OK	Fila 6	Columna 9
+Rubén Marco	13:49:42	ATL1v2E64409.1118/130821	OK	Fila 7	Columna 0
+Rubén Marco	13:52:01	ATL1v2E64409.1118/130821	NOK	Fila 8	Columna 0
+Rubén Marco	13:54:19	ATL1v2E64409.1118/130821	OK	Fila 7	Columna 1
+Rubén Marco	13:56:38	ATL1v2E64409.1118/130821	NOK	Fila 8	Columna 1
+Rubén Marco	13:58:56	ATL1v2E64409.1118/130821	OK	Fila 7	Columna 2
+Rubén Marco	14:01:15	ATL1v2E64409.1118/130821	NOK	Fila 8	Columna 2
+Rubén Marco	14:03:33	ATL1v2E64409.1118/130821	NOK	Fila 8	Columna 3
+Rubén Marco	14:05:51	ATL1v2E64409.1118/130821	OK	Fila 7	Columna 3
+Rubén Marco	14:08:10	ATL1v2E64409.1118/130821	NOK	Fila 8	Columna 4
+Rubén Marco	14:10:29	ATL1v2E64409.1118/130821	OK	Fila 7	Columna 4
+
+29/10/2020
+Rubén Marco	14:22:52	ATL1v2E64409.1118/130821	OK	Fila 7	Columna 5
+Rubén Marco	14:25:10	ATL1v2E64409.1118/130821	OK	Fila 7	Columna 6
+Rubén Marco	14:27:28	ATL1v2E64409.1118/130821	OK	Fila 7	Columna 7
+Rubén Marco	14:29:47	ATL1v2E64409.1118/130821	NOK	Fila 8	Columna 5
+Rubén Marco	14:32:04	ATL1v2E64409.1118/130821	NOK	Fila 8	Columna 6
+Rubén Marco	14:34:22	ATL1v2E64409.1118/130821	OK	Fila 7	Columna 8
+Rubén Marco	14:36:40	ATL1v2E64409.1118/130821	OK	Fila 7	Columna 9
+Rubén Marco	14:38:58	ATL1v2E64409.1118/130821	OK	Fila 8	Columna 0
+Rubén Marco	14:41:16	ATL1v2E64409.1118/130821	OK	Fila 8	Columna 1
+Rubén Marco	14:43:34	ATL1v2E64409.1118/130821	OK	Fila 8	Columna 2
+
+17/02/2021
+
+18/02/2021
+Rubén Marco	08:37:15		NOK	Fila 0	Columna 0
+
+18/02/2021
+Rubén Marco	09:00:00		NOK	Fila 0	Columna 0
+
+18/02/2021
+Rubén Marco	09:04:36		OK	Fila 0	Columna 0
+
+18/02/2021
+Rubén Marco	09:16:33		OK	Fila 0	Columna 0
+
+18/02/2021
+Rubén Marco	09:21:14		NOK	Fila 0	Columna 0
+
+18/02/2021
+Rubén Marco	09:26:22		NOK	Fila 0	Columna 0
+
+18/02/2021
+Rubén Marco	09:55:23		OK	Fila 0	Columna 0
+
+18/02/2021
+Rubén Marco	10:02:38		NOK	Fila 0	Columna 0
+
+18/02/2021
+Rubén Marco	10:11:37		NOK	Fila 0	Columna 0
+
+18/02/2021
+Rubén Marco	10:19:16		NOK	Fila 0	Columna 0
+
+18/02/2021
+Rubén Marco	10:35:03		NOK	Fila 0	Columna 0
+
+18/02/2021
+
+18/02/2021
+
+18/02/2021
+
+18/02/2021
+
+18/02/2021
+
+18/02/2021
+
+18/02/2021
+Rubén Marco	10:54:29		OK	Fila 0	Columna 0
+
+18/02/2021
+Rubén Marco	10:57:11		NOK	Fila 0	Columna 0
+
+18/02/2021
+Rubén Marco	11:18:23		OK	Fila 0	Columna 0
+
+18/02/2021
+Rubén Marco	11:28:10		OK	Fila 0	Columna 0
+
+18/02/2021
+Rubén Marco	11:33:45		OK	Fila 0	Columna 0
+
+18/02/2021
+Rubén Marco	11:40:08		NOK	Fila 0	Columna 0
+
+18/02/2021
+
+18/02/2021
+
+18/02/2021
+
+18/02/2021
+
+18/02/2021
+Rubén Marco	13:21:36		OK	Fila 0	Columna 0
+
+18/02/2021
+Rubén Marco	13:27:10		OK	Fila 0	Columna 0
+
+18/02/2021
+Rubén Marco	14:28:19		NOK	Fila 0	Columna 0
+
+18/02/2021
+Rubén Marco	14:44:52		NOK	Fila 0	Columna 0
+Rubén Marco	14:49:25		OK	Fila 0	Columna 0
+Rubén Marco	14:53:57		OK	Fila 0	Columna 1
+
+18/02/2021
+Rubén Marco	15:50:45		NOK	Fila 0	Columna 0
+Rubén Marco	15:55:17		NOK	Fila 0	Columna 1
+
+22/02/2021
+Rubén Marco	08:39:51		NOK	Fila 0	Columna 0
+
+22/02/2021
+
+22/02/2021
+Rubén Marco	08:51:35		NOK	Fila 0	Columna 0
+
+22/02/2021
+Rubén Marco	08:54:24		NOK	Fila 0	Columna 0
+
+22/02/2021
+Rubén Marco	09:01:39		NOK	Fila 0	Columna 0
+Rubén Marco	09:06:11		OK	Fila 0	Columna 0
+Rubén Marco	09:10:44		OK	Fila 0	Columna 1
+Rubén Marco	09:15:16		NOK	Fila 0	Columna 1
+
+22/02/2021
+Rubén Marco	09:26:10		NOK	Fila 0	Columna 9
+
+22/02/2021
+Rubén Marco	09:36:50		NOK	Fila 0	Columna 9
+
+22/02/2021
+Rubén Marco	09:43:38		OK	Fila 0	Columna 9
+Rubén Marco	09:48:10		OK	Fila 1	Columna 0
+
+22/02/2021
+Rubén Marco	10:01:15		OK	Fila 0	Columna 9
+Rubén Marco	10:05:47		OK	Fila 1	Columna 0
+
+01/03/2021
+Rubén Marco	09:19:17		OK	Fila 0	Columna 0
+
+01/03/2021
+
+01/03/2021
+Rubén Marco	09:27:06		NOK	Fila 0	Columna 0
+
+01/03/2021
+Rubén Marco	09:31:07		NOK	Fila 0	Columna 0
+
+01/03/2021
+Rubén Marco	09:38:39		OK	Fila 0	Columna 0
+
+01/03/2021
+Rubén Marco	09:44:50		OK	Fila 0	Columna 9
+Rubén Marco	09:49:27		NOK	Fila 0	Columna 9
+Rubén Marco	09:54:04		NOK	Fila 1	Columna 0
+
+01/03/2021
+Rubén Marco	10:00:43		NOK	Fila 5	Columna 9
+Rubén Marco	10:05:17		NOK	Fila 6	Columna 0
+
+01/03/2021
+Rubén Marco	10:13:26		NOK	Fila 16	Columna 8
+
+01/03/2021
+Rubén Marco	10:21:41		NOK	Fila 16	Columna 8
+Rubén Marco	10:26:08		NOK	Fila 16	Columna 9
+
+01/03/2021
+Rubén Marco	10:35:09		NOK	Fila 16	Columna 8
+Rubén Marco	10:39:37		OK	Fila 16	Columna 8
+Rubén Marco	10:44:04		OK	Fila 16	Columna 9
+
+02/03/2021
+Rubén Marco	08:31:08		OK	Fila 0	Columna 0
+
+02/03/2021
+Rubén Marco	08:37:24		NOK	Fila 0	Columna 0
+Rubén Marco	08:42:04		OK	Fila 0	Columna 0
+
+02/03/2021
+Rubén Marco	08:56:10		NOK	Fila 0	Columna 0
+
+02/03/2021
+Rubén Marco	09:14:36		NOK	Fila 0	Columna 9
+Rubén Marco	09:19:24		NOK	Fila 1	Columna 0
+Rubén Marco	09:24:09		OK	Fila 8	Columna 0
+Rubén Marco	09:28:41		OK	Fila 8	Columna 1
+Rubén Marco	09:33:12		NOK	Fila 1	Columna 1
+Rubén Marco	09:37:55		OK	Fila 8	Columna 2
+Rubén Marco	09:42:30		OK	Fila 8	Columna 3
+Rubén Marco	09:47:07		NOK	Fila 1	Columna 2
+Rubén Marco	09:51:55		OK	Fila 8	Columna 4
+Rubén Marco	09:56:32		NOK	Fila 1	Columna 3
+Rubén Marco	10:01:14		NOK	Fila 1	Columna 4
+Rubén Marco	10:05:58		OK	Fila 8	Columna 5
+Rubén Marco	10:10:33		OK	Fila 8	Columna 6
+Rubén Marco	10:15:06		NOK	Fila 1	Columna 5
+Rubén Marco	10:20:00		NOK	Fila 1	Columna 6
+Rubén Marco	10:24:48		NOK	Fila 1	Columna 7
+Rubén Marco	10:29:34		OK	Fila 8	Columna 7
+
+02/03/2021
+Rubén Marco	10:56:06		NOK	Fila 0	Columna 9
+Rubén Marco	11:00:53		OK	Fila 8	Columna 0
+Rubén Marco	11:05:25		NOK	Fila 1	Columna 0
+
+02/03/2021
+
+02/03/2021
+Rubén Marco	15:46:41		NOK	Fila 0	Columna 0
+
+02/03/2021
+Rubén Marco	15:54:55		OK	Fila 0	Columna 0
+
+03/03/2021
+
+03/03/2021
+
+03/03/2021
+
+03/03/2021
+
+03/03/2021
+Rubén Marco	10:38:39		NOK	Fila 0	Columna 0
+
+09/03/2021
+Rubén Marco	08:52:49		OK	Fila 0	Columna 0
+
+09/03/2021
+Rubén Marco	08:55:50		NOK	Fila 0	Columna 0
+Rubén Marco	09:00:36		OK	Fila 0	Columna 0
+Rubén Marco	09:05:10		NOK	Fila 0	Columna 1
+Rubén Marco	09:09:54		NOK	Fila 0	Columna 2
+
+09/03/2021
+Rubén Marco	09:23:58		OK	Fila 0	Columna 0
+
+09/03/2021
+Rubén Marco	09:33:53		NOK	Fila 0	Columna 0
+
+09/03/2021
+Rubén Marco	09:54:36		OK	Fila 0	Columna 0
+
+09/03/2021
+Rubén Marco	10:04:24		OK	Fila 0	Columna 0
+
+09/03/2021
+Rubén Marco	10:17:18		OK	Fila 0	Columna 0
+Rubén Marco	10:21:51		OK	Fila 0	Columna 1
+
+09/03/2021
+
+09/03/2021
+Rubén Marco	10:31:34		NOK	Fila 0	Columna 0
+
+09/03/2021
+Rubén Marco	10:37:30		NOK	Fila 0	Columna 0
+Rubén Marco	10:42:09		OK	Fila 0	Columna 0
+
+09/03/2021
+
+09/03/2021
+Rubén Marco	13:02:53		OK	Fila 0	Columna 0
+
+09/03/2021
+Rubén Marco	13:13:16		OK	Fila 0	Columna 0
+
+09/03/2021
+Rubén Marco	13:19:05		OK	Fila 0	Columna 0
+
+09/03/2021
+Rubén Marco	13:29:00		NOK	Fila 0	Columna 0
+Rubén Marco	13:33:40		OK	Fila 0	Columna 0
+
+09/03/2021
+Rubén Marco	13:52:24		NOK	Fila 0	Columna 0
+
+09/03/2021
+Rubén Marco	13:57:10		OK	Fila 0	Columna 0
+
+09/03/2021
+Rubén Marco	14:06:42		OK	Fila 0	Columna 0
+
+09/03/2021
+Rubén Marco	14:14:26		NOK	Fila 0	Columna 0
+
+09/03/2021
+Rubén Marco	14:47:27		OK	Fila 0	Columna 0
+Rubén Marco	14:52:01		OK	Fila 0	Columna 1
+
+03/06/2021
+Rubén Marco	10:57:36		OK	Fila 13	Columna 0
+Rubén Marco	11:01:43		NOK	Fila 13	Columna 0
+
+03/06/2021
+Rubén Marco	11:08:51		NOK	Fila 13	Columna 0
+
+03/06/2021
+Rubén Marco	11:14:55		OK	Fila 13	Columna 0
+
+03/06/2021
+Rubén Marco	11:21:03		NOK	Fila 13	Columna 0
+
+03/06/2021
+Rubén Marco	11:26:34		OK	Fila 13	Columna 0
+
+03/06/2021
+Rubén Marco	11:35:41		OK	Fila 13	Columna 0
+Rubén Marco	11:39:49		NOK	Fila 13	Columna 0
+
+08/06/2021
+
+09/06/2021
+Rubén Marco	14:52:32		OK	Fila 13	Columna 0
+
+09/06/2021
+Rubén Marco	15:35:40		NOK	Fila 13	Columna 0
+Rubén Marco	15:39:54		OK	Fila 13	Columna 0
+Rubén Marco	15:44:01		OK	Fila 13	Columna 1
+Rubén Marco	15:48:10		OK	Fila 13	Columna 2
+Rubén Marco	15:52:20		OK	Fila 13	Columna 3
+
+09/06/2021
+Rubén Marco	16:00:30		OK	Fila 13	Columna 0
+Rubén Marco	16:03:53		NOK	Fila 13	Columna 0
+Rubén Marco	16:07:23		NOK	Fila 13	Columna 1
+Rubén Marco	16:10:55		NOK	Fila 13	Columna 2
+Rubén Marco	16:14:28		NOK	Fila 13	Columna 3
+Rubén Marco	16:18:02		NOK	Fila 13	Columna 4
+Rubén Marco	16:21:37		NOK	Fila 13	Columna 5
+Rubén Marco	16:25:14		NOK	Fila 13	Columna 6
+Rubén Marco	16:28:52		OK	Fila 13	Columna 1
+Rubén Marco	16:32:21		NOK	Fila 13	Columna 7
+Rubén Marco	16:35:54		NOK	Fila 13	Columna 8
+Rubén Marco	16:39:28		NOK	Fila 13	Columna 9
+Rubén Marco	16:43:04		NOK	Fila 14	Columna 0
+Rubén Marco	16:46:33		OK	Fila 13	Columna 2
+
+15/06/2021
+Rubén Marco	14:35:41		OK	Fila 13	Columna 0
+Rubén Marco	14:39:31		OK	Fila 13	Columna 1
+Rubén Marco	14:43:21		OK	Fila 13	Columna 2
+Rubén Marco	14:47:12		OK	Fila 13	Columna 3
+Rubén Marco	14:51:01		OK	Fila 13	Columna 4
+Rubén Marco	14:54:57		OK	Fila 13	Columna 5
+
+15/06/2021
+Rubén Marco	15:00:06		OK	Fila 13	Columna 0
+Rubén Marco	15:03:31		OK	Fila 13	Columna 1
+
+16/06/2021
+Rubén Marco	13:31:50		OK	Fila 13	Columna 0
+Rubén Marco	13:35:15		OK	Fila 13	Columna 1
+
+18/06/2021
+Rubén Marco	10:00:30		OK	Fila 13	Columna 0
+Rubén Marco	10:02:54		OK	Fila 13	Columna 1
+Rubén Marco	10:05:19		OK	Fila 13	Columna 2
+Rubén Marco	10:07:44		OK	Fila 13	Columna 3
+Rubén Marco	10:10:14		OK	Fila 13	Columna 4
+Rubén Marco	10:12:45		OK	Fila 13	Columna 5
+Rubén Marco	10:15:15		OK	Fila 13	Columna 6
+Rubén Marco	10:17:44		OK	Fila 13	Columna 7
+
+18/06/2021
+
+18/06/2021
+Rubén Marco	11:20:44		OK	Fila 13	Columna 0
+Rubén Marco	11:23:09		NOK	Fila 13	Columna 0
+
+18/06/2021
+Rubén Marco	11:28:04		OK	Fila 13	Columna 0
+
+18/06/2021
+Rubén Marco	11:36:34		NOK	Fila 13	Columna 0
+Rubén Marco	11:39:09		NOK	Fila 13	Columna 1
+Rubén Marco	11:41:44		NOK	Fila 13	Columna 2
+Rubén Marco	11:44:19		NOK	Fila 13	Columna 3
+Rubén Marco	11:46:54		NOK	Fila 13	Columna 4
+Rubén Marco	11:49:29		NOK	Fila 13	Columna 5
+Rubén Marco	11:52:04		NOK	Fila 13	Columna 6
+Rubén Marco	11:54:39		NOK	Fila 13	Columna 7
+Rubén Marco	11:57:19		NOK	Fila 13	Columna 8
+Rubén Marco	11:59:59		NOK	Fila 13	Columna 9
+Rubén Marco	12:02:34		NOK	Fila 14	Columna 0
+Rubén Marco	12:05:04		NOK	Fila 14	Columna 1
+Rubén Marco	12:07:34		NOK	Fila 14	Columna 2
+Rubén Marco	12:10:09		NOK	Fila 14	Columna 3
+Rubén Marco	12:12:44		NOK	Fila 14	Columna 4
+Rubén Marco	12:15:19		NOK	Fila 14	Columna 5
+Rubén Marco	12:17:54		NOK	Fila 14	Columna 6
+Rubén Marco	12:20:29		NOK	Fila 14	Columna 7
+Rubén Marco	12:23:04		NOK	Fila 14	Columna 8
+Rubén Marco	12:25:39		NOK	Fila 14	Columna 9
+Rubén Marco	12:28:14		NOK	Fila 15	Columna 0
+Rubén Marco	12:30:44		NOK	Fila 15	Columna 1
+Rubén Marco	12:33:14		NOK	Fila 15	Columna 2
+Rubén Marco	12:35:44		NOK	Fila 15	Columna 3
+Rubén Marco	12:38:19		NOK	Fila 15	Columna 4
+Rubén Marco	12:40:54		NOK	Fila 15	Columna 5
+Rubén Marco	12:43:29		NOK	Fila 15	Columna 6
+Rubén Marco	12:46:04		NOK	Fila 15	Columna 7
+Rubén Marco	12:48:39		NOK	Fila 15	Columna 8
+Rubén Marco	12:51:14		NOK	Fila 15	Columna 9
+Rubén Marco	12:53:49		NOK	Fila 16	Columna 0
+Rubén Marco	12:56:19		NOK	Fila 16	Columna 1
+Rubén Marco	12:57:59		NOK	Fila 16	Columna 2
+Rubén Marco	13:00:49		NOK	Fila 16	Columna 3
+Rubén Marco	13:03:19		NOK	Fila 16	Columna 4
+Rubén Marco	13:05:49		NOK	Fila 16	Columna 5
+Rubén Marco	13:08:24		NOK	Fila 16	Columna 6
+Rubén Marco	13:10:59		NOK	Fila 16	Columna 7
+Rubén Marco	13:13:34		NOK	Fila 16	Columna 8
+Rubén Marco	13:16:09		NOK	Fila 16	Columna 9
+
+18/06/2021
+
+18/06/2021
+Rubén Marco	13:46:04		OK	Fila 13	Columna 0
+Rubén Marco	13:48:29		OK	Fila 13	Columna 1
+Rubén Marco	13:50:54		OK	Fila 13	Columna 2
+Rubén Marco	13:53:24		OK	Fila 13	Columna 3
+Rubén Marco	13:55:54		OK	Fila 13	Columna 4
+Rubén Marco	13:58:24		NOK	Fila 13	Columna 0
+Rubén Marco	14:00:59		OK	Fila 13	Columna 5
+
+18/06/2021
+Rubén Marco	14:03:49		OK	Fila 13	Columna 0
+Rubén Marco	14:06:14		OK	Fila 13	Columna 1
+Rubén Marco	14:08:39		OK	Fila 13	Columna 2
+Rubén Marco	14:11:09		OK	Fila 13	Columna 3
+Rubén Marco	14:13:39		OK	Fila 13	Columna 4
+Rubén Marco	14:16:09		OK	Fila 13	Columna 5
+
+18/06/2021
+Rubén Marco	14:19:04		OK	Fila 13	Columna 0
+Rubén Marco	14:21:29		OK	Fila 13	Columna 1
+Rubén Marco	14:23:59		NOK	Fila 13	Columna 0
+Rubén Marco	14:26:34		NOK	Fila 13	Columna 1
+
+18/06/2021
+Rubén Marco	14:44:15		OK	Fila 13	Columna 0
+Rubén Marco	14:46:44		OK	Fila 13	Columna 1
+
+21/06/2021
+
+21/06/2021
+
+21/06/2021
+Rubén Marco	09:37:25		OK	Fila 13	Columna 0
+Rubén Marco	09:39:50		OK	Fila 13	Columna 1
+Rubén Marco	09:42:20		OK	Fila 13	Columna 2
+
+21/06/2021
+Rubén Marco	13:19:20		OK	Fila 13	Columna 0
+
+21/06/2021
+Rubén Marco	13:44:15	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 0
+
+21/06/2021
+
+21/06/2021
+Rubén Marco	14:01:40	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 0
+Rubén Marco	14:04:05	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 1
+Rubén Marco	14:06:35		OK	Fila 13	Columna 2
+Rubén Marco	14:09:05		OK	Fila 13	Columna 3
+
+21/06/2021
+Rubén Marco	14:25:31		OK	Fila 13	Columna 0
+
+21/06/2021
+Rubén Marco	14:29:55	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 0
+Rubén Marco	14:32:20	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 1
+Rubén Marco	14:34:50	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 2
+Rubén Marco	14:37:20	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 3
+Rubén Marco	14:39:50	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 4
+Rubén Marco	14:42:20	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 5
+Rubén Marco	14:44:50	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 6
+Rubén Marco	14:47:20	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 7
+Rubén Marco	14:49:50	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 8
+Rubén Marco	14:52:25	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 9
+Rubén Marco	14:54:56	ATL1v2E64409.1118/131388	OK	Fila 14	Columna 0
+Rubén Marco	14:57:20	ATL1v2E64409.1118/131388	OK	Fila 14	Columna 1
+Rubén Marco	15:00:11	ATL1v2E64409.1118/131388	OK	Fila 14	Columna 2
+
+22/06/2021
+
+22/06/2021
+Rubén Marco	09:32:51		OK	Fila 13	Columna 0
+
+22/06/2021
+Rubén Marco	09:35:56	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 0
+
+22/06/2021
+Rubén Marco	09:38:46	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 0
+Rubén Marco	09:41:17	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 1
+Rubén Marco	09:43:46	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 2
+Rubén Marco	09:46:16	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 3
+Rubén Marco	09:48:51	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 4
+Rubén Marco	09:51:26	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 5
+Rubén Marco	09:54:06	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 6
+Rubén Marco	09:56:36	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 7
+Rubén Marco	09:59:06	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 8
+Rubén Marco	10:01:41	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 9
+Rubén Marco	10:04:11	ATL1v2E64409.1118/131388	OK	Fila 14	Columna 0
+Rubén Marco	10:06:36	ATL1v2E64409.1118/131388	OK	Fila 14	Columna 1
+
+22/06/2021
+Rubén Marco	10:52:51	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 0
+Rubén Marco	10:55:27	ATL1v2E64409.1118/131388	NOK	Fila 13	Columna 0
+Rubén Marco	11:00:31	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 1
+Rubén Marco	11:03:06	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 2
+Rubén Marco	11:05:36	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 3
+Rubén Marco	11:08:06	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 4
+Rubén Marco	11:10:41	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 5
+Rubén Marco	11:13:31	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 6
+Rubén Marco	11:16:06	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 7
+Rubén Marco	11:18:41	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 8
+Rubén Marco	11:21:21	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 9
+Rubén Marco	11:23:51	ATL1v2E64409.1118/131388	NOK	Fila 13	Columna 1
+Rubén Marco	11:26:51	ATL1v2E64409.1118/131388	OK	Fila 14	Columna 0
+Rubén Marco	11:29:41	ATL1v2E64409.1118/131388	OK	Fila 14	Columna 1
+Rubén Marco	11:32:11	ATL1v2E64409.1118/131388	OK	Fila 14	Columna 2
+Rubén Marco	11:36:56	ATL1v2E64409.1118/131388	OK	Fila 14	Columna 3
+Rubén Marco	11:39:46	ATL1v2E64409.1118/131388	OK	Fila 14	Columna 4
+Rubén Marco	11:42:31	ATL1v2E64409.1118/131388	OK	Fila 14	Columna 5
+Rubén Marco	11:45:01	ATL1v2E64409.1118/131388	OK	Fila 14	Columna 6
+Rubén Marco	11:47:36	ATL1v2E64409.1118/131388	OK	Fila 14	Columna 7
+Rubén Marco	11:50:16	ATL1v2E64409.1118/131388	OK	Fila 14	Columna 8
+Rubén Marco	11:56:01	ATL1v2E64409.1118/131388	OK	Fila 14	Columna 9
+Rubén Marco	11:58:31	ATL1v2E64409.1118/131388	OK	Fila 15	Columna 0
+Rubén Marco	12:00:56	ATL1v2E64409.1118/131388	OK	Fila 15	Columna 1
+Rubén Marco	12:03:26	ATL1v2E64409.1118/131388	OK	Fila 15	Columna 2
+Rubén Marco	12:05:56	ATL1v2E64409.1118/131388	OK	Fila 15	Columna 3
+Rubén Marco	12:16:21	ATL1v2E64409.1118/131388	OK	Fila 15	Columna 4
+Rubén Marco	12:18:51	ATL1v2E64409.1118/131388	OK	Fila 15	Columna 5
+Rubén Marco	12:23:51	ATL1v2E64409.1118/131388	OK	Fila 15	Columna 6
+Rubén Marco	12:26:21	ATL1v2E64409.1118/131388	OK	Fila 15	Columna 7
+Rubén Marco	12:29:06	ATL1v2E64409.1118/131388	OK	Fila 15	Columna 8
+Rubén Marco	12:31:51	ATL1v2E64409.1118/131388	OK	Fila 15	Columna 9
+Rubén Marco	12:34:26	ATL1v2E64409.1118/131388	OK	Fila 16	Columna 0
+Rubén Marco	12:36:56	ATL1v2E64409.1118/131388	OK	Fila 16	Columna 1
+Rubén Marco	12:39:21	ATL1v2E64409.1118/131388	OK	Fila 16	Columna 2
+Rubén Marco	12:41:51	ATL1v2E64409.1118/131388	OK	Fila 16	Columna 3
+Rubén Marco	12:44:26	ATL1v2E64409.1118/131388	OK	Fila 16	Columna 4
+Rubén Marco	12:47:06	ATL1v2E64409.1118/131388	OK	Fila 16	Columna 5
+Rubén Marco	12:49:36	ATL1v2E64409.1118/131388	OK	Fila 16	Columna 6
+Rubén Marco	12:52:06	ATL1v2E64409.1118/131388	OK	Fila 16	Columna 7
+
+24/06/2021
+Juan Rodríguez	09:05:57	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 0
+Juan Rodríguez	09:08:27	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 1
+Juan Rodríguez	09:11:12	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 2
+Juan Rodríguez	09:13:42	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 3
+Juan Rodríguez	09:16:27	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 4
+Juan Rodríguez	09:18:57	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 5
+Juan Rodríguez	09:21:32	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 6
+Juan Rodríguez	09:24:07	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 7
+Juan Rodríguez	09:26:42	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 8
+Juan Rodríguez	09:29:18	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 9
+Juan Rodríguez	09:31:47	ATL1v2E64409.1118/131388	OK	Fila 14	Columna 0
+Juan Rodríguez	09:34:17	ATL1v2E64409.1118/131388	OK	Fila 14	Columna 1
+Juan Rodríguez	09:36:47	ATL1v2E64409.1118/131388	OK	Fila 14	Columna 2
+Juan Rodríguez	09:39:37	ATL1v2E64409.1118/131388	OK	Fila 14	Columna 3
+Juan Rodríguez	09:42:17	ATL1v2E64409.1118/131388	OK	Fila 14	Columna 4
+Juan Rodríguez	09:44:52	ATL1v2E64409.1118/131388	OK	Fila 14	Columna 5
+Juan Rodríguez	09:47:22	ATL1v2E64409.1118/131388	OK	Fila 14	Columna 6
+Juan Rodríguez	10:20:22	ATL1v2E64409.1118/131388	OK	Fila 14	Columna 7
+Juan Rodríguez	10:22:57	ATL1v2E64409.1118/131388	OK	Fila 14	Columna 8
+Juan Rodríguez	10:25:32	ATL1v2E64409.1118/131388	OK	Fila 14	Columna 9
+Juan Rodríguez	10:28:22	ATL1v2E64409.1118/131388	OK	Fila 15	Columna 0
+Juan Rodríguez	10:31:47	ATL1v2E64409.1118/131388	OK	Fila 15	Columna 1
+Juan Rodríguez	10:34:17	ATL1v2E64409.1118/131388	OK	Fila 15	Columna 2
+Juan Rodríguez	10:36:52	ATL1v2E64409.1118/131388	NOK	Fila 13	Columna 0
+Juan Rodríguez	10:39:27	ATL1v2E64409.1118/131388	OK	Fila 15	Columna 3
+Juan Rodríguez	10:41:57	ATL1v2E64409.1118/131388	OK	Fila 15	Columna 4
+Juan Rodríguez	10:44:27	ATL1v2E64409.1118/131388	OK	Fila 15	Columna 5
+Juan Rodríguez	10:47:07	ATL1v2E64409.1118/131388	OK	Fila 15	Columna 6
+Juan Rodríguez	10:49:37	ATL1v2E64409.1118/131388	OK	Fila 15	Columna 7
+Juan Rodríguez	10:52:32	ATL1v2E64409.1118/131388	OK	Fila 15	Columna 8
+Juan Rodríguez	10:55:18	ATL1v2E64409.1118/131388	OK	Fila 15	Columna 9
+Juan Rodríguez	10:58:02	ATL1v2E64409.1118/131388	OK	Fila 16	Columna 0
+Juan Rodríguez	11:00:32	ATL1v2E64409.1118/131388	OK	Fila 16	Columna 1
+Juan Rodríguez	11:02:57	ATL1v2E64409.1118/131388	OK	Fila 16	Columna 2
+Juan Rodríguez	11:05:22	ATL1v2E64409.1118/131388	OK	Fila 16	Columna 3
+Juan Rodríguez	11:07:52	ATL1v2E64409.1118/131388	OK	Fila 16	Columna 4
+Juan Rodríguez	11:10:22	ATL1v2E64409.1118/131388	OK	Fila 16	Columna 5
+Juan Rodríguez	11:12:52	ATL1v2E64409.1118/131388	OK	Fila 16	Columna 6
+Juan Rodríguez	11:38:12	ATL1v2E64409.1118/131388	OK	Fila 16	Columna 7
+Juan Rodríguez	11:40:42	ATL1v2E64409.1118/131388	OK	Fila 16	Columna 8
+
+24/06/2021
+
+24/06/2021
+
+24/06/2021
+
+25/06/2021
+Juan Rodríguez	11:36:58	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 0
+
+25/06/2021
+Juan Rodríguez	11:48:39	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 0
+Juan Rodríguez	11:50:44	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 1
+Juan Rodríguez	11:52:54	ATL1v2E64409.1118/131388	OK	Fila 13	Columna 2
+Juan Rodríguez	11:55:14	ATL1v2E64409.1118/131388	NOK	Fila 13	Columna 0
+
+28/06/2021
+Juan Rodríguez	10:44:58	ATL1v2E64409.1118/131388	Entrada	Fila 0	Columna 0
+
+28/06/2021
+Juan Rodríguez	10:52:26	ATL1v2E64409.1118/131388	Entrada	Fila 0	Columna 0
+Juan Rodríguez	10:54:40	ATL1v2E64409.1118/131388	Entrada	Fila 0	Columna 1
+
+28/06/2021
+
+28/06/2021
+Juan Rodríguez	11:08:52	ATL1v2E64409.1118/131388	Entrada	Fila 13	Columna 7
+Juan Rodríguez	11:10:11	ATL1v2E64409.1118/131388	Entrada	Fila 13	Columna 8
+Juan Rodríguez	11:11:30	ATL1v2E64409.1118/131388	Entrada	Fila 13	Columna 9
+Juan Rodríguez	11:13:04	ATL1v2E64409.1118/131388	Entrada	Fila 14	Columna 0
+
+ATL1v2E64409.1118/131388	Ciemat	Juan Rodríguez	28/06/2021	11:30:23	IN	13	0
+ATL1v2E64409.1118/131388	Ciemat	Juan Rodríguez	28/06/2021	11:32:46	IN	13	1
+ATL1v2E64409.1118/131388	Ciemat	Juan Rodríguez	28/06/2021	11:34:03	IN	13	2
+ATL1v2E64409.1118/131388	Ciemat	Juan Rodríguez	28/06/2021	11:35:27	IN	13	3

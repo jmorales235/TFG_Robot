@@ -1,0 +1,61 @@
+
+Medida	Teorica	Real	Codigo
+1	50mv	51,33mv	15	
+2	100mv
+3	200mv
+4	300mv
+5	400mv
+6	500mv
+7	600mv
+8	70mmv
+9	800mv
+10	900mv
+11	1000mv
+
+** Tomamos el valor Mean de estadisticas despues de 32 medias.
+
+Hardware:
+====================================
+Sonda s/n: B022016 (canal 1)
+Cables lemo 5ns (canal 2 y 3)
+Oscilosciopio s/n C016316
+Placa Test: CTA0013
+Placa VGA: VGA001
+
+Configuracion medida:
+=====================================
+Osciloscopio encendido >1 hora
+Placa encendida y funcionando > 1 hora
+
+
+Configuracion Canal:
+=====================================
+
+Horizontal
+----------
+	Base tiempos: 4.00 ns.
+	Mode: Average 64
+	Delay: On
+
+
+Canal 1
+-------
+	Record: 10K
+	Posicion: -3 div
+
+Canal 2
+-------
+
+Canal 3
+-------
+
+
+Configuracion medidas:
+Estadisticas ON 32
+
+
+
+Medida	Teorica	Trigger	V/div	
+1	50mv	27.76mv	10mV
+
+

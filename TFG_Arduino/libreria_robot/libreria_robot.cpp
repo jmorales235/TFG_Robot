@@ -36,7 +36,7 @@ void Home(){
     delay(100);
     
 
-    while(digitalRead(sensor_z)==LOW)
+    while(digitalRead(sensor_z)==LOW) //LECTURA DE FINAL DE CARRERA
   
     
     {
@@ -53,7 +53,7 @@ void Home(){
     digitalWrite(dir_y,LOW);
     delay(100);
 
-    while(digitalRead(sensor_y)==LOW)
+    while(digitalRead(sensor_y)==LOW) //LECTURA DE FINAL DE CARRERA
     {
       digitalWrite(pul_y,HIGH);
       delayMicroseconds(300);//400
@@ -70,7 +70,7 @@ void Home(){
     delay(100);
 
 
-    while(digitalRead(sensor_x)==LOW)
+    while(digitalRead(sensor_x)==LOW) //LECTURA DE FINAL DE CARRERA
     {
       digitalWrite(pul_x,HIGH);
       delayMicroseconds(300);//400
@@ -103,7 +103,7 @@ void Home_inicial(){
     movimiento(pul_x,2000,200); //derecha
     movimiento(pul_y,2000,200);//avance
   
-    Home(); 
+    Home(); //VUELTA A FINALES DE CARRERA
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -120,7 +120,7 @@ char LeerComando_1byte(){
 }
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-void movimiento(int salida, long pulsos, long tiempo) 
+void movimiento(int salida, long pulsos, long tiempo) //FUNCION HEREDADA DEL SISTEMA PRIMARIO QUE HIZO RUBÉN MARCO
 {
   long t;
   
@@ -179,10 +179,7 @@ void movimientoCorto(int salida, long pulsos)
   for (long i=0;i<(pulsos);i++)
   {
 
-                                         //ESTOS "if" anidados es un algoritmo de aceleración/deceleración de la velocidad de rotacion de los motores
-                                         //al inicio y final de cada movimiento para evitar movimientos bruscos cuando sale del socket (HOME) y cuando llega a la bandeja                                         
-                                         //va modificando el tiempo entre pulsos para aumentar o reducir la velocidad.
-    //Ejecución de los pulsos (señal cuadrada).El tiempo en alto y bajo "t" es determinado previamente con un dato que lee desde labview (POR qué no es una constante?)
+                                         
     if (i<pulsos){
     digitalWrite(salida,HIGH); //Salida a nivel alto
     delayMicroseconds(400);      //espera

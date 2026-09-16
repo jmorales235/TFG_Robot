@@ -1,3 +1,6 @@
+
+
+//AUTOR : JAVIER MORALES
 #include "libreria_tareas.h"
 #include "libreria_funciones_tareas.h"
 #include "libreria_robot.h"

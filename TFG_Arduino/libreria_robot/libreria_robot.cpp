@@ -1,3 +1,5 @@
+
+//AUTOR : JAVIER MORALES
 #include "libreria_robot.h"
 #include <Arduino.h>
 #include <config_pines_arduino.h>

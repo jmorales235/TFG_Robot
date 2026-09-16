@@ -1,3 +1,6 @@
+
+//AUTOR : JAVIER MORALES
+
 #ifndef LIBRERIA_ROBOT_H
 
 #define LIBRERIA_ROBOT_H

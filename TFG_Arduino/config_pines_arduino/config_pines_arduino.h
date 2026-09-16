@@ -1,7 +1,7 @@
 #ifndef CONFIG_PINES_ARDUINO_H
 #define CONFIG_PINES_ARDUINO_H
 
-
+//definicion de pines fisicos vs variables
 
 #define dir_y 29
 #define pul_y 31
